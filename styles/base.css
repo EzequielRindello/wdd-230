@@ -50,9 +50,6 @@ main {
 li {
   padding: 5px;
 }
-h2{
-  font-size: 2rem;
-}
 /* ---------------------------------------footer--------------------------------------------------------- */
 footer {
   background-color: var(--primary-color);
@@ -88,15 +85,20 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 10px;
 }
 .projets-card{
   grid-column: 1;
   justify-self: center;
+  margin-top: 12%;
 }
 .card{
   grid-column: 2;
   justify-self: center;
+  margin-top: 12%;
+}
+.h2-style{
+  font-size: 2.5rem;
+  margin-left: -10%;
 }
 /* ---------------------------------------id selectors--------------------------------------------------------- */
 
