@@ -1,4 +1,4 @@
-
+// set the way to display the date
 const options = {
     month: "short",
     day: "numeric",
@@ -10,3 +10,4 @@ currentDate.textContent = new Date().toLocaleDateString("en-US", options);
 
 const lastModified = document.getElementById('lastModified-placeholder');
 lastModified.textContent = new Date().toLocaleDateString("en-US", options);
+
