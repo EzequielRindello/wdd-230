@@ -75,7 +75,7 @@ footer {
   font-size: 0.5rem;
   text-align: left;
   margin-left: 2%;
-  color: var(--titles-color);
+  color:#fff;
 }
 .nav-a {
   padding: 2%;
