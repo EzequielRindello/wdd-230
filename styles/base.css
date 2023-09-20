@@ -55,9 +55,15 @@ li {
 }
 section {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   text-align: justify;
+  margin: 1rem auto;
+  border: 1px solid #bbb;
+  padding: 1rem;
+  background-color: #e6f2ff;
+  width: 60%;
+  height: auto;
 }
 /* ---------------------------------------footer--------------------------------------------------------- */
 footer {
@@ -84,7 +90,7 @@ footer {
   font-size: 0.5rem;
   text-align: left;
   margin-left: 2%;
-  color:#fff;
+  color: #fff;
 }
 .nav-a {
   padding: 7px;
@@ -95,14 +101,14 @@ footer {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(2 1fr);
 }
-.h2-style{
+.h2-style {
   font-size: 2rem;
 }
-.card{
+.card {
   grid-column: 1;
   grid-row: 1;
 }
-.info{
+.info {
   grid-column: 1;
   grid-row: 2;
 }
