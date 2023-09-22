@@ -12,11 +12,21 @@
     width: 100%;
     height: auto;
   }
-  .h2-style{
+  .h2-style {
     font-size: 1.5rem;
   }
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (min-width: 641px) and (max-width: 940px) {
+  .info {
+    display: none;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
