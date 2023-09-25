@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
     <!-- added Open Graph meta properties -->
     <meta
       property="og:title"
@@ -25,7 +25,7 @@
       content="https://ezequielrindello.github.io/wdd-230/"
     />
     <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/larger.css" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -34,7 +34,8 @@
       <div class="name"><h1>Ezequiel rindello</h1></div>
     </header>
     <nav>
-      <ul>
+      <button id="menu"></button>
+      <ul class="navigation">
         <li><a class="nav-a" href="#" target="_blank">Home</a></li>
         <li>
           <a class="nav-a" href="chamber/siteplan.html" target="_blank"
@@ -60,14 +61,20 @@
         <h3>Learning Activities</h3>
         <br />
         <ul>
-          <li>Week 01:
+          <li>
+            Week 01:
             <a href="lesson01/holy-grail.html" target="_blank">Holy Grail |</a>
             <a href="lesson01/applied-js.html" target="_blank">Applied JS </a>
           </li>
-          <li>Week 02:
+          <li>
+            Week 02:
             <a href="lesson01/media-query.htm" target="_blank">Media Query |</a>
-            <a href="lesson02/grid-example.html" target="_blank">Grid exaple |</a>
-            <a href="lesson02/design-principles.html" target="_blank">Design Principles</a>
+            <a href="lesson02/grid-example.html" target="_blank"
+              >Grid exaple |</a
+            >
+            <a href="lesson02/design-principles.html" target="_blank"
+              >Design Principles</a
+            >
           </li>
         </ul>
       </section>
@@ -86,5 +93,6 @@
       Modified: <span id="lastModified-placeholder"></span>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
   </body>
 </html>
