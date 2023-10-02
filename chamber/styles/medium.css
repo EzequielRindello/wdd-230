@@ -1,0 +1,11 @@
+@media (max-width: 640px){
+    nav{
+        display: none;
+    }
+    .header-join{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
