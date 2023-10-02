@@ -69,6 +69,10 @@ section {
 nav ul {
   list-style-type: none;
 }
+.chamber {
+  font-weight: bold;
+  font-style: italic;
+}
 /* ---------------------------------------footer--------------------------------------------------------- */
 footer {
   background-color: var(--primary-color);
