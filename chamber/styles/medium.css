@@ -1,11 +1,39 @@
-@media (max-width: 640px){
-    nav{
-        display: none;
-    }
-    .header-join{
-        display: none;
-    }
-    #menu{
-        display: block;
-    }
+@media (max-width: 640px) {
+  .header-join {
+    display: none;
+  }
+  #abrir-menu, #cerrar-menu {
+    display: block;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+  }
+  header ul {
+    flex-direction: column;
+    align-items: end;
+  }
+  header nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1.5rem;
+    border-right: 0;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+  }
+  header nav.visible{
+    opacity: 1;
+    visibility: visible;
+  }
 }

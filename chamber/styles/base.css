@@ -24,6 +24,7 @@ header {
 }
 nav a {
   position: relative;
+  color: #fff;
 }
 nav a::before {
   content: "";
@@ -38,7 +39,6 @@ nav a::before {
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
-
 nav a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
@@ -74,7 +74,7 @@ nav {
   margin-left: 10px;
   margin-right: 30px;
 }
-#menu {
+#abrir-menu, #cerrar-menu  {
   display: none;
 }
 /* --------------------------------footer-------------------------------- */
