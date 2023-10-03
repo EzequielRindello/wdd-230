@@ -98,13 +98,34 @@ nav {
 footer {
   background-color: #333;
   color: var();
-  height: 80px;
+  height: 60px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  text-align: center; /* Centra el texto dentro del div */
 }
 footer span a{
   font-family: var(--paragraph-font);
+  color: var(--text-color);
+}
+footer a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.social-icons {
+  font-size: 24px; 
+}
+.social-icons a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 0 10px;
+}
+footer div:first-child {
+  margin-right: 5%; 
 }
 /* --------------------------------home page-------------------------------- */
