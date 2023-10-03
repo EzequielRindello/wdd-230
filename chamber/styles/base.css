@@ -2,19 +2,31 @@
   box-sizing: border-box;
 }
 :root {
-  --color-primario: black;
+  /* colors */
+  --primary-color: #333333;
+  --secondary-color: #dd5d30;
+  --text-color: #fff;
+  --accent1-color: #0d1117;
+  --accent2-color: #f3f5f6;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Poppins", sans-serif;
+  --paragraph-font: "Montserrat", sans-serif;
 }
 body {
   min-height: 100vh;
   margin: 0;
+  background-color: var(--accent2-color);
+  color: var(--text-color);
 }
 /* --------------------------------header-------------------------------- */
 nav {
   border-right: 1px solid #fff;
   padding-right: 10px;
-  margin-right: 10px;
+  margin-right: 3rem;
 }
 header {
+  font-family: var(--paragraph-font);
   background-color: #333;
   padding: 20px;
   display: flex;
@@ -25,19 +37,23 @@ header {
 nav a {
   position: relative;
   color: #fff;
+  text-decoration: none;
+  margin-right: 3rem;
+  font-size: 1.05rem;
+  padding: 0.2rem;
 }
 nav a::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 4px;
-  border-radius: 4px;
-  background-color: #18272f;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
   bottom: 0;
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 nav a:hover::before {
   transform-origin: left;
@@ -46,7 +62,7 @@ nav a:hover::before {
 .logo img {
   max-width: 200px;
   height: auto;
-  margin-left: 40%;
+  margin-left: 20%;
 }
 nav ul {
   list-style: none;
@@ -74,19 +90,21 @@ nav {
   margin-left: 10px;
   margin-right: 30px;
 }
-#abrir-menu, #cerrar-menu  {
+#abrir-menu,
+#cerrar-menu {
   display: none;
 }
 /* --------------------------------footer-------------------------------- */
 footer {
   background-color: #333;
+  color: var();
   height: 80px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
 }
-/* --------------------------------home page-------------------------------- */
-main {
-  outline: solid red;
+footer span a{
+  font-family: var(--paragraph-font);
 }
+/* --------------------------------home page-------------------------------- */
