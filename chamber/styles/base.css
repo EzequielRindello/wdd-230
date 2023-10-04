@@ -115,15 +115,15 @@ footer span a {
   color: var(--text-color);
 }
 footer a {
-  text-decoration: none;
-  color: var(--secondary-color);
+  text-decoration:underline;
+  color: var(--text-color);
 }
 .social-icons {
   font-size: 24px;
 }
 .social-icons a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--text-color);
   margin: 0 10px;
 }
 footer div:first-child {
