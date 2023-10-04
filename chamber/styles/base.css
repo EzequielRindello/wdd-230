@@ -4,7 +4,7 @@
 :root {
   /* colors */
   --primary-color: #333333;
-  --secondary-color: #dd5d30;
+  --secondary-color: #b94e27;
   --text-color: #fff;
   --accent1-color: #0d1117;
   --accent2-color: #f3f5f6;
@@ -74,7 +74,7 @@ nav li {
   margin-right: 20px;
 }
 .header-join a {
-  background-color: #ff5722;
+  background-color: var(--secondary-color);
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
