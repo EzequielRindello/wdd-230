@@ -148,7 +148,7 @@ footer div:first-child {
   background-position: center;
   transition: all 0.1s ease-in-out;
   background-image: url("../images/hero1.webp");
-  animation: banner 21s infinite linear;
+  animation: banner 28s infinite linear;
 }
 .banner-hero {
   margin: 0;
@@ -174,18 +174,24 @@ footer div:first-child {
   0% {
     background-image: url("../images/hero2.webp");
   }
-  33% {
+  25% {
     background-image: url("../images/hero2.webp");
-  }34%{
+  }26%{
     background-image: url("../images/hero1.webp");
   }
-  66%{
+  50%{
     background-image: url("../images/hero1.webp");
   }
-  67%{
+  51%{
     background-image: url("../images/hero3.webp");
+  }
+  75%{
+    background-image: url("../images/hero3.webp");
+  }
+  76%{
+    background-image: url("../images/hero4.webp");
   }
   100%{
-    background-image: url("../images/hero3.webp");
+    background-image: url("../images/hero4.webp");
   }
 }
