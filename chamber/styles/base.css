@@ -92,7 +92,7 @@ nav {
   margin-right: 30px;
 }
 #abrir-menu,
-#cerrar-menu {
+#cerrar-menu, .header-join-movile {
   display: none;
 }
 /* --------------------------------footer-------------------------------- */

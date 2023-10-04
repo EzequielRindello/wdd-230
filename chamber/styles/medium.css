@@ -1,4 +1,7 @@
 @media (max-width: 840px) {
+  body{
+    font-family: "Montserrat", sans-serif;
+  }
   .header-join {
     display: none;
   }
@@ -10,6 +13,22 @@
     background-color: transparent;
     color: #fff;
     font-size: 2rem;
+  }
+  .header-join-movile {
+    display: block;
+    margin-top: 35%;
+  }
+  .header-join-movile a {
+    font: inherit;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  .header-join-movile a:hover {
+    background-color: #e64a19;
+    transition: 0.4s ease-in-out;
   }
   header ul {
     flex-direction: column;
