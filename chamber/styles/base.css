@@ -99,7 +99,7 @@ nav {
 footer {
   background-color: #333;
   color: var();
-  height: 60px;
+  height: 50px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -170,6 +170,7 @@ footer div:first-child {
   padding: 0;
   letter-spacing: 10px;
 }
+/* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
   0% {
     background-image: url("../images/hero2.webp");
