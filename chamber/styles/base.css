@@ -164,7 +164,7 @@ footer div:first-child {
 }
 .banner-hero h1 {
   font-family: var(--heading-font);
-  font-size: clamp(2rem, 4rem, 6rem);
+  font-size: clamp(2.5rem, 3.5rem, 6.5rem);
   text-transform: uppercase;
   margin: 0;
   padding: 0;
