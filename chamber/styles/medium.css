@@ -66,4 +66,8 @@
     gap: 1rem;
     height: 80px;
   }
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
 }
