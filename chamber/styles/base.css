@@ -83,8 +83,9 @@ nav li {
   border-radius: 5px;
 }
 .header-join a:hover {
+  letter-spacing: 1px;
   background-color: #e64a19;
-  transition: 0.4s ease-in-out;
+  transition: all .5s ease;
 }
 nav {
   margin-left: auto;
@@ -129,6 +130,10 @@ footer a {
   color: var(--text-color);
   margin: 0 10px;
 }
+.social-icons i:hover,footer a:hover{
+  color: #e64a19;
+  transition: 0.5s ease-in-out;
+}
 footer div:first-child {
   margin-right: 5%;
 }
@@ -142,6 +147,7 @@ footer div:first-child {
 .banner-button:hover {
   color: var(--secondary-color);
   transition: 1s ease-in-out;
+  transform: translateY(-5px);
 }
 .banner {
   position: relative;
@@ -174,8 +180,9 @@ footer div:first-child {
   letter-spacing: 10px;
 }
 /* --------------------------------home page divs-------------------------------- */
-main h2{
+main h2,h3{
   text-align: center;
+  font-family: var(--heading-font);
 }
 .info {
   display: grid;
@@ -183,6 +190,7 @@ main h2{
   grid-template-rows: 1fr 80px 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  font-family: var(--paragraph-font);
 }
 .events {
   grid-column: 2;
