@@ -1,6 +1,16 @@
+/* --------------------------------general styles-------------------------------- */
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--accent2-color);
+}
+/* --------------------------------roots-------------------------------- */
 :root {
   /* colors */
   --primary-color: #333333;
@@ -10,18 +20,26 @@
   --accent2-color: #f3f5f6;
   --div-background: #ffffff;
   --div-color: black;
+  --hover-color: #e64a19;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Poppins", sans-serif;
   --paragraph-font: "Montserrat", sans-serif;
 }
-html {
-  scroll-behavior: smooth;
-}
-body {
-  min-height: 100vh;
-  margin: 0;
-  background-color: var(--accent2-color);
+body.color-change {
+  /* colors */
+  --primary-color: black;
+  --secondary-color: black;
+  --text-color: black;
+  --accent1-color: black;
+  --accent2-color: black;
+  --div-background: black;
+  --div-color: black;
+  --hover-color: black;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Poppins", sans-serif;
+  --paragraph-font: "Montserrat", sans-serif;
 }
 /* --------------------------------header-------------------------------- */
 nav {
@@ -52,7 +70,7 @@ nav a::before {
   width: 100%;
   height: 4px;
   border-radius: 5px;
-  background-color: var(--secondary-color);
+  background-color: var(--hover-color);
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -103,18 +121,17 @@ nav {
 }
 /* --------------------------------footer-------------------------------- */
 footer {
-  background-color: #333;
+  background-color: var(--primary-color);
   color: var(--text-color);
   height: 50px;
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  text-align: center; /* Centra el texto dentro del div */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 footer span a {
   font-family: var(--paragraph-font);
@@ -134,7 +151,7 @@ footer a {
 }
 .social-icons i:hover,
 footer a:hover {
-  color: #e64a19;
+  color: var(--hover-color);
   transition: 0.5s ease-in-out;
 }
 footer div:first-child {
@@ -204,7 +221,7 @@ h3 {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 4px 0px rgb(82, 79, 79);
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 .events:hover {
   transform: translate(5px, -5px);
@@ -242,6 +259,27 @@ strong a:hover {
   grid-row: 3;
   outline: solid red;
 }
+/* --------------------------------dark mode toggle-------------------------------- */
+#dark-mode {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-size: inherit;
+  margin-right: 1%;
+}
+#dark-mode i {
+  color: #ffffff;
+  background-color: var(--primary-color);
+  font-size: 25px;
+  cursor: pointer;
+}
+#dark-mode i:hover {
+  color: var(--hover-color);
+  transition: 0.5s ease-in-out;
+}
+
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
   0% {
