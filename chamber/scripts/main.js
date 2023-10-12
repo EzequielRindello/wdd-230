@@ -25,7 +25,7 @@ cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
 
-// obten el botón y añade un escuchador de eventos para cambiar los colores
+// obten el boton y añade un escuchador de eventos para cambiar los colores
 const colorButton = document.getElementById("dark-mode");
 
 colorButton.addEventListener("click", function () {
