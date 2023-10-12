@@ -3,7 +3,10 @@
     font-family: "Montserrat", sans-serif;
   }
   #dark-mode {
-    display: none;
+    position: absolute;
+    top :3.3%;
+    right: 15%;
+
   }
   .header-join {
     display: none;
