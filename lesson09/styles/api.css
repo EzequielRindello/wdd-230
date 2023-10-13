@@ -62,7 +62,7 @@ div p {
   overflow: hidden;
 }
 .accordion:after {
-  content: " \2B9F"; /* Unicode character for "flecha hacia abajo" */
+  content: " \2B9F";
   font-size: 13px;
   color: #777;
   float: right;
@@ -70,4 +70,18 @@ div p {
 }
 .active:after {
   content: "\2B9D";
+}
+.container {
+  display: grid;
+  grid-template-columns:  2fr 4fr 2fr;
+}
+.ubicate-porfavor {
+  grid-column: 2;
+  margin-top: 10%;
+}
+@media (max-width: 1366px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
 }
