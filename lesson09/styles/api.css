@@ -21,21 +21,53 @@ header {
 header h1 {
   color: #ffffff;
 }
-main h1{
-    font-family:  "Hack-ZeroSlash",monospace;
-    font-size: 37px;
-    font-weight: 700;
-    padding: 2.5rem;
+main h1 {
+  font-family: "Hack-ZeroSlash", monospace;
+  font-size: 34px;
+  font-weight: 700;
+  padding: 2.5rem;
 }
-div p{
-    font-size: 23.4px;
+div p {
+  font-size: 23.4px;
 }
-.italic{
-    font-size: 18.72px;
-    font-family: italic;
-    padding: 10px;
+.italic {
+  font-size: 18.72px;
+  font-family: italic;
+  padding: 10px;
 }
-.container{
-    display: flex;
-    flex-direction: row;
+.container {
+  display: flex;
+  flex-direction: row;
+}
+/* ------------------------------------------------------------- */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.accordion:after {
+  content: " \2B9F"; /* Unicode character for "flecha hacia abajo" */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2B9D";
 }
