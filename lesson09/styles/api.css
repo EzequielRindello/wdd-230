@@ -41,15 +41,19 @@ div p {
 }
 /* ------------------------------------------------------------- */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  font-family: "Lato", sans-serif;
+  background-color: #d0d0d5;
+  color: #1b1b32;
   cursor: pointer;
   padding: 18px;
+  margin: 5px;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: 24px;
+  border: 3px solid #1b1b32;
 }
 .active,
 .accordion:hover {
@@ -57,9 +61,17 @@ div p {
 }
 .panel {
   padding: 0 18px;
-  background-color: white;
   display: none;
   overflow: hidden;
+}
+.panel img{
+  width: 100%;
+  height: auto;
+}
+.panel p {
+  font-size: 20px;
+  padding: 20px;
+  text-align:justify;
 }
 .accordion:after {
   content: " \2B9F";
@@ -73,7 +85,7 @@ div p {
 }
 .container {
   display: grid;
-  grid-template-columns:  2fr 4fr 2fr;
+  grid-template-columns: 2fr 4fr 2fr;
 }
 .ubicate-porfavor {
   grid-column: 2;
