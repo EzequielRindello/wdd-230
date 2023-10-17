@@ -295,7 +295,7 @@ strong a:hover {
   color: #fff;
   font-size: 25px;
   font-weight: 500;
-} 
+}
 .weather h3 {
   color: #fff;
   font-size: 35px;
@@ -386,3 +386,9 @@ strong a:hover {
     background-image: url("../images/hero4.webp");
   }
 }
+/* <!-- only week 06 delete later ↓ --> */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+/* <!-- only week 06 delete later ↑ --> */
