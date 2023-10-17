@@ -29,4 +29,4 @@ async function checkWeather() {
 
 }
 
-checkWeather(); // Llama a checkWeather al cargar la página para mostrar el clima de Argentina automáticamente
+checkWeather(); // Llama a checkWeather al cargar la página para mostrar el clima de Argentina automáticamente   
