@@ -1,0 +1,9 @@
+@media screen and (min-width: 841px) and (max-width: 1400px){
+    .details{
+        display: none;
+    }
+    .card{
+        width: fit-content;
+        height: fit-content;
+    }
+}

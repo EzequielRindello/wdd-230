@@ -356,6 +356,12 @@ strong a:hover {
   opacity: 1;
   filter: brightness(130%);
 }
+.image-text {
+  display: none;
+}
+#imageDescription{
+  font-family: var(--heading-font);
+}
 /* --------------------------------dark mode toggle-------------------------------- */
 #dark-mode {
   background-color: transparent;
