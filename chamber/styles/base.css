@@ -415,4 +415,11 @@ strong a:hover {
   width: 100%;
   height: auto;
 }
+.week06{
+  text-align: center;
+  color: #ffff;
+  font-family: var(--heading-font);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
 /* <!-- only week 06 delete later ↑ --> */
