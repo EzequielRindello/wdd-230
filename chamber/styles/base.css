@@ -417,7 +417,7 @@ strong a:hover {
 }
 .week06{
   text-align: center;
-  color: #ffff;
+  color: var(--div-color);
   font-family: var(--heading-font);
   font-size: 3rem;
   text-transform: uppercase;
