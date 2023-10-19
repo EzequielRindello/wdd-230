@@ -395,6 +395,8 @@ strong a:hover {
   color: var(--hover-color);
   transition: 0.5s ease-in-out;
 }
+/* --------------------------------discover page-------------------------------- */
+
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
   0% {
