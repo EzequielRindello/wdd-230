@@ -1,9 +1,18 @@
-@media screen and (min-width: 841px) and (max-width: 1400px){
-    .details{
-        display: none;
-    }
-    .card{
-        width: fit-content;
-        height: fit-content;
-    }
+@media screen and (min-width: 841px) and (max-width: 1400px) {
+  .details {
+    display: none;
+  }
+  .card {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 842px) and (max-width: 1124px) {
+  .spotlights {
+    margin-top: -30px;
+  }
+  .title h2 {
+    margin-top: -30px;
+  }
 }

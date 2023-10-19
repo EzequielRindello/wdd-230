@@ -91,6 +91,9 @@
     margin-top: 0px;
   }
   .spotlights {
-    margin-top: 0px;
+    display: none;
+  }
+  .title h2 {
+    display: none;
   }
 }
