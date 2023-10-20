@@ -1,6 +1,9 @@
 /* --------------------------------general styles-------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
   scroll-behavior: smooth;
@@ -183,7 +186,8 @@ footer div:first-child {
   background-image: url("../images/hero1.webp");
   animation: banner 28s infinite linear;
 }
-.banner-hero, .discover-hero {
+.banner-hero,
+.discover-hero {
   margin: 0;
   padding: 7%;
   width: 100%;
@@ -195,7 +199,8 @@ footer div:first-child {
   justify-content: flex-start;
   align-items: center;
 }
-.banner-hero h1,.discover-hero h1 {
+.banner-hero h1,
+.discover-hero h1 {
   font-family: var(--heading-font);
   font-size: clamp(2.5rem, 3.5rem, 6.5rem);
   text-transform: uppercase;
@@ -203,7 +208,7 @@ footer div:first-child {
   padding: 0;
   letter-spacing: 10px;
 }
-.banner-discover{
+.banner-discover {
   position: relative;
   width: 100%;
   height: 50vh;
@@ -396,7 +401,107 @@ strong a:hover {
   transition: 0.5s ease-in-out;
 }
 /* --------------------------------discover page-------------------------------- */
+.wrapper {
+  width: 270px; /* Se reduce en un 40% */
+  background: #fff;
+  border-radius: 6px; /* Se reduce en un 40% */
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12); /* Se reduce en un 40% */
+}
 
+.wrapper .date {
+  display: flex;
+  align-items: center;
+  padding: 15px 18px 6px; /* Se reduce en un 40% */
+  justify-content: space-between;
+}
+
+.date .icons span {
+  height: 24px; /* Se reduce en un 40% */
+  width: 24px; /* Se reduce en un 40% */
+  margin: 0 0.6px; /* Se reduce en un 40% */
+  font-size: 1.32rem; /* Se reduce en un 40% */
+  line-height: 24px; /* Se reduce en un 40% */
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  user-select: none;
+  border-radius: 50%;
+}
+
+/* Estilo específico para el último span en .icons */
+.date .icons span:last-child {
+  margin-right: -6px; /* Se reduce en un 40% */
+}
+
+.date .icons span:hover {
+  background: #f2f2f2;
+}
+
+.date .current-date {
+  font-size: 0.87rem; /* Se reduce en un 40% */
+  font-weight: 500;
+}
+
+.calendar {
+  padding: 12px; /* Se reduce en un 40% */
+}
+
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.calendar .days {
+  margin-bottom: 12px; /* Se reduce en un 40% */
+}
+
+.calendar li {
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 0.642rem; /* Se reduce en un 40% */
+}
+
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+
+.calendar .days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 14.4px; /* Se reduce en un 40% */
+}
+
+.days li.inactive {
+  color: #aaa;
+}
+
+.days li.active {
+  color: #fff;
+}
+
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 19.2px; /* Se reduce en un 40% */
+  width: 19.2px; /* Se reduce en un 40% */
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.days li.active::before {
+  background: #9b59b6;
+}
+
+.days li:not(.active):hover::before {
+  background: #f2f2f2;
+}
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
   0% {
