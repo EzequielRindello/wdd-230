@@ -110,7 +110,7 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   row-gap: 20px;
 }
-.h2-style {
+.h2-s {
   font-size: 2rem;
 }
 .card {
