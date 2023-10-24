@@ -491,6 +491,7 @@ strong a:hover {
   background: #fff;
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
+  padding: 20px;
 }
 iframe {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
@@ -523,14 +524,17 @@ iframe {
 }
 .discover-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 7fr 1fr;
+  grid-template-columns: 5% 270px 70px 7fr;
   grid-template-rows: 1fr;
+  column-gap: 10px;
 }
 aside{
   grid-column: 2;
+  margin-top: 50%;
+  height: fit-content;
 }
 .discover-galeria{
-  grid-column: 3;
+  grid-column: 4;
 }
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
