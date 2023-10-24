@@ -402,105 +402,125 @@ strong a:hover {
 }
 /* --------------------------------discover page-------------------------------- */
 .wrapper {
-  width: 270px; /* Se reduce en un 40% */
+  width: 270px;
   background: #fff;
-  border-radius: 6px; /* Se reduce en un 40% */
-  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12); /* Se reduce en un 40% */
+  border-radius: 6px;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
 }
-
 .wrapper .date {
   display: flex;
   align-items: center;
-  padding: 15px 18px 6px; /* Se reduce en un 40% */
+  padding: 15px 18px 6px;
   justify-content: space-between;
 }
-
 .date .icons span {
-  height: 24px; /* Se reduce en un 40% */
-  width: 24px; /* Se reduce en un 40% */
-  margin: 0 0.6px; /* Se reduce en un 40% */
-  font-size: 1.32rem; /* Se reduce en un 40% */
-  line-height: 24px; /* Se reduce en un 40% */
+  height: 24px;
+  width: 24px;
+  margin: 0 0.6px;
+  font-size: 1.32rem;
+  line-height: 24px;
   cursor: pointer;
   color: #878787;
   text-align: center;
   user-select: none;
   border-radius: 50%;
 }
-
-/* Estilo específico para el último span en .icons */
 .date .icons span:last-child {
-  margin-right: -6px; /* Se reduce en un 40% */
+  margin-right: -6px;
 }
-
 .date .icons span:hover {
   background: #f2f2f2;
 }
-
 .date .current-date {
-  font-size: 0.87rem; /* Se reduce en un 40% */
+  font-size: 0.87rem;
   font-weight: 500;
 }
-
 .calendar {
-  padding: 12px; /* Se reduce en un 40% */
+  padding: 12px;
 }
-
 .calendar ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
 }
-
 .calendar .days {
-  margin-bottom: 12px; /* Se reduce en un 40% */
+  margin-bottom: 12px;
 }
-
 .calendar li {
   color: #333;
   width: calc(100% / 7);
-  font-size: 0.642rem; /* Se reduce en un 40% */
+  font-size: 0.642rem;
 }
-
 .calendar .weeks li {
   font-weight: 500;
   cursor: default;
 }
-
 .calendar .days li {
   z-index: 1;
   cursor: pointer;
   position: relative;
-  margin-top: 14.4px; /* Se reduce en un 40% */
+  margin-top: 14.4px;
 }
-
 .days li.inactive {
   color: #aaa;
 }
-
 .days li.active {
   color: #fff;
 }
-
 .days li::before {
   position: absolute;
   content: "";
   left: 50%;
   top: 50%;
-  height: 19.2px; /* Se reduce en un 40% */
-  width: 19.2px; /* Se reduce en un 40% */
+  height: 19.2px;
+  width: 19.2px;
   z-index: -1;
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-
 .days li.active::before {
   background: #9b59b6;
 }
-
 .days li:not(.active):hover::before {
   background: #f2f2f2;
+}
+.localStorage {
+  width: 270px;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+iframe {
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+.color img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 1s ease;
+  width: 480px;
+  height: 300px;
+  border-radius: 6px;
+}
+.color img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 2s ease;
+}
+.discover-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 7fr 1fr;
+  grid-template-rows: 1fr;
+}
+aside{
+  grid-column: 2;
+}
+.discover-galeria{
+  grid-column: 3;
 }
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
