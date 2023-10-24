@@ -496,6 +496,16 @@ iframe {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
 }
+.color{
+  display: flex;
+  margin-top: 10%;
+}
+.galeria-info {
+  flex: 2;
+}
+.galeria-info p{
+  text-align: center;
+}
 .color img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
