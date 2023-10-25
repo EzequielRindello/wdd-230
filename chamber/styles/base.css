@@ -532,6 +532,17 @@ iframe {
   padding-left: 11%;
   padding-top: 3%;
 }
+.galeria-info a {
+  font-family: var(--paragraph-font);
+  text-align: left;
+  padding-left: 11%;
+  text-decoration: none;
+  color: var(--div-color);
+}
+.galeria-info a:hover{
+  color:#e64a19;
+  text-decoration:underline;
+}
 .color img {
   width: 480px;
   height: 300px;
