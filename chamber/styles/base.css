@@ -412,6 +412,7 @@ strong a:hover {
   font-family: var(--paragraph-font);
 }
 .wrapper {
+  position: relative;
   width: 270px;
   background: #fff;
   border-radius: 6px;
@@ -539,9 +540,9 @@ iframe {
   text-decoration: none;
   color: var(--div-color);
 }
-.galeria-info a:hover{
-  color:#e64a19;
-  text-decoration:underline;
+.galeria-info a:hover {
+  color: #e64a19;
+  text-decoration: underline;
 }
 .color img {
   width: 480px;
@@ -567,6 +568,9 @@ aside {
   grid-column: 2;
   margin-top: 50%;
   height: fit-content;
+  position: sticky;
+  top: 15%;
+  width: 270px;
 }
 .discover-galeria {
   grid-column: 4;
