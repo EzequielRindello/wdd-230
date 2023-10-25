@@ -217,21 +217,24 @@ footer div:first-child {
   background-image: url("../images/discover-hero.webp");
 }
 /* --------------------------------events-------------------------------- */
-main p {
+.main-homepage p {
   color: var(--div-color);
   font-size: clamp(16px, 20px, 24px);
 }
-main h2,
+.main-homepage h2,
 h3 {
   text-align: center;
   font-family: var(--heading-font);
   color: var(--div-color);
 }
 .second-heading {
-  font-size: clamp(1.5rem, 2.5rem, 3.5rem);
+  font-size: clamp(2rem, 2.25rem, 3rem);
   padding-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  text-align: center;
+  color: var(--div-color);
+  font-family: var(--heading-font);
 }
 .info {
   display: grid;
@@ -240,6 +243,7 @@ h3 {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   font-family: var(--paragraph-font);
+  padding-top: 5%;
 }
 .events {
   grid-column: 2;
@@ -401,6 +405,12 @@ strong a:hover {
   transition: 0.5s ease-in-out;
 }
 /* --------------------------------discover page-------------------------------- */
+.main-discover h3 {
+  font-family: var(--heading-font);
+}
+.main-discover p {
+  font-family: var(--paragraph-font);
+}
 .wrapper {
   width: 270px;
   background: #fff;
@@ -487,6 +497,7 @@ strong a:hover {
 }
 .localStorage {
   width: 270px;
+  color: black;
   height: auto;
   background: #fff;
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
@@ -497,30 +508,43 @@ iframe {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
 }
-.color{
+.color {
   display: flex;
-  margin-top: 10%;
+  width: 90%;
+  background-color: var(--div-background);
+  margin-top: 7%;
+  transition: transform 0.5s ease;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+  padding: 10px;
+  border-radius: 5px;
+}
+.color h3 {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 2%;
+  text-transform: capitalize;
 }
 .galeria-info {
   flex: 2;
 }
-.galeria-info p{
-  text-align: center;
+.galeria-info p {
+  text-align: left;
+  padding-left: 11%;
+  padding-top: 3%;
 }
 .color img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  transition: all 1s ease;
   width: 480px;
   height: 300px;
   border-radius: 6px;
+  transition: transform 0.5s ease-in-out;
 }
 .color img:hover {
-  filter: grayscale(0%);
-  filter: gray;
-  -webkit-filter: grayscale(0%);
-  filter: none;
-  transition: 2s ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1) translate(5px, -5px);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .discover-grid {
   display: grid;
@@ -528,12 +552,12 @@ iframe {
   grid-template-rows: 1fr;
   column-gap: 10px;
 }
-aside{
+aside {
   grid-column: 2;
   margin-top: 50%;
   height: fit-content;
 }
-.discover-galeria{
+.discover-galeria {
   grid-column: 4;
 }
 /* --------------------------------keyframes-------------------------------- */
@@ -563,16 +587,3 @@ aside{
     background-image: url("../images/hero4.webp");
   }
 }
-/* <!-- only week 06 delete later ↓ --> */
-.hero img {
-  width: 100%;
-  height: auto;
-}
-.week06 {
-  text-align: center;
-  color: var(--div-color);
-  font-family: var(--heading-font);
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-/* <!-- only week 06 delete later ↑ --> */
