@@ -6,6 +6,16 @@
     width: fit-content;
     height: fit-content;
   }
+  .color img {
+    width: 380px;
+    height: 200px;
+  }
+  .galeria-info p {
+    font-size: 16px;
+  }
+  .discover-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 842px) and (max-width: 1124px) {
@@ -14,5 +24,14 @@
   }
   .title h2 {
     margin-top: -30px;
+  }
+  .discover-grid {
+    grid-template-columns: 1fr;
+  }
+  .discover-galeria {
+    grid-column: 1;
+  }
+  aside {
+    display: none;
   }
 }
