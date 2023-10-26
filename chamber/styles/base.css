@@ -407,9 +407,11 @@ strong a:hover {
 /* --------------------------------discover page-------------------------------- */
 .main-discover h3 {
   font-family: var(--heading-font);
+  color: var(--div-color);
 }
 .main-discover p {
   font-family: var(--paragraph-font);
+  color: var(--div-color);
 }
 .wrapper {
   position: relative;
@@ -504,6 +506,9 @@ strong a:hover {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
   border-radius: 6px;
   padding: 20px;
+}
+.visits, #color-date {
+  color: black;
 }
 iframe {
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
