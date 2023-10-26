@@ -4,7 +4,9 @@
   }
   #dark-mode {
     position: absolute;
-    top: 2.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     right: 15%;
   }
   .header-join {
@@ -124,8 +126,7 @@
   }
   .logo img {
     width: 150px;
-    height: auto;
-    margin-left: 20%;
+    margin-left: 0%;
   }
   .banner-hero h1,
   .discover-hero h1 {
