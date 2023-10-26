@@ -34,4 +34,8 @@
   aside {
     display: none;
   }
+  .color img {
+    width: 280px;
+    height: 200px;
+  }
 }

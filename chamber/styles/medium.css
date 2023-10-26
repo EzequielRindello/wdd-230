@@ -4,7 +4,7 @@
   }
   #dark-mode {
     position: absolute;
-    top: 3.3%;
+    top: 2.3%;
     right: 15%;
   }
   .header-join {
@@ -117,5 +117,25 @@
   }
   aside {
     display: none;
+  }
+  .color img {
+    width: 280px;
+    height: 200px;
+  }
+  .logo img {
+    width: 150px;
+    height: auto;
+    margin-left: 20%;
+  }
+  .banner-hero h1,
+  .discover-hero h1 {
+    font-family: var(--heading-font);
+    font-size: clamp(1.5rem, 2.5rem, 3.5rem);
+  }
+  .second-heading {
+    font-size: clamp(1rem, 1.25rem, 2rem);
+  }
+  .events p {
+    font-size: 16px;
   }
 }
