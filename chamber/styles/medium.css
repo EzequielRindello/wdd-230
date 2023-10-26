@@ -122,7 +122,7 @@
   }
   .color img {
     width: 280px;
-    height: 200px;
+    height: auto;
   }
   .logo img {
     width: 150px;
