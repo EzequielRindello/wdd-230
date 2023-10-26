@@ -491,7 +491,7 @@ strong a:hover {
   transform: translate(-50%, -50%);
 }
 .days li.active::before {
-  background: #9b59b6;
+  background: black;
 }
 .days li:not(.active):hover::before {
   background: #f2f2f2;
