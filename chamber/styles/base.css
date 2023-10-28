@@ -577,6 +577,23 @@ aside {
 .discover-galeria {
   grid-column: 4;
 }
+/* --------------------------------join page-------------------------------- */
+.main-join p{
+  font-family: var(--paragraph-font);
+  font-size: 20px;
+  color: var(--div-color);
+}
+.main-join h1,h2,h3{
+  font-family: var(--heading-font);
+  color: var(--div-color);
+}
+.about-us div{
+  background-color: var(--div-background);
+  height: fit-content;
+  margin-top: 4%;
+  padding: 45px;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+}
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
   0% {

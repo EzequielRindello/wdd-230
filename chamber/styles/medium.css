@@ -129,14 +129,14 @@
     margin-left: 0%;
   }
   .banner-hero h1,
-  .discover-hero h1 {
+  .discover-hero h1{
     font-family: var(--heading-font);
     font-size: clamp(1.5rem, 2.5rem, 3.5rem);
   }
-  .second-heading {
+  .second-heading,.main-join h2,.main-join h1 {
     font-size: clamp(1rem, 1.25rem, 2rem);
   }
-  .events p {
+  .events p,.main-join p{
     font-size: 16px;
   }
 }

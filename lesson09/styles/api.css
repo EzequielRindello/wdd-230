@@ -39,7 +39,6 @@ div p {
   display: flex;
   flex-direction: row;
 }
-/* ------------------------------------------------------------- */
 .accordion {
   font-family: "Lato", sans-serif;
   background-color: #d0d0d5;
@@ -90,6 +89,18 @@ div p {
 .ubicate-porfavor {
   grid-column: 2;
   margin-top: 10%;
+}
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #0a0a23;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span{
+  text-align: center;
 }
 @media (max-width: 1366px) {
   .container {
