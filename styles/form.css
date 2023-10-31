@@ -105,4 +105,9 @@ footer {
   form {
     width: 90%;
   }
+  footer{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
 }
