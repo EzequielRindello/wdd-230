@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@
 body {
   font-family: Arial, sans-serif;
 }
-h1{
+h1 {
   text-align: center;
 }
 header,
@@ -50,4 +50,9 @@ button {
   margin-top: 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width: 1024px) {
+  form {
+    width: 90%;
+  }
 }
