@@ -154,4 +154,14 @@
   .form :where(.gender-option, .gender) {
     row-gap: 15px;
   }
+  .thankyou h1 {
+    font-size: 2.5rem;
+  }
+  .thankyou i {
+    font-size: 8rem;
+  }
+  .thankyou p{
+    font-size: 18px;
+    text-align: center;
+  }
 }

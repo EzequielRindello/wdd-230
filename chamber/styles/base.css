@@ -598,16 +598,16 @@ h3 {
   padding: 45px;
   box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
 }
-.grid-join{
+.grid-join {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 10px;
   padding-top: 7%;
   padding-bottom: 7%;
 }
-hr{
+hr {
   height: 3px;
-  background-color:var(--div-color);
+  background-color: var(--div-color);
   margin: auto;
   margin-top: 3%;
   width: 40%;
@@ -760,6 +760,52 @@ hr{
 }
 .form button:hover {
   background: rgb(88, 56, 250);
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input-area textarea {
+  margin-top: 20px;
+  height: 60px;
+}
+/* --------------------------------thank you page-------------------------------- */
+.thankyou{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.thankyou h1 {
+  font-family: var(--heading-font);
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  text-align: center;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+.thankyou i {
+  align-self: center;
+  font-size: 9.75rem;
+  line-height: 1;
+  color: #24b663;
+}
+.thankyou p{
+  font-family: var(--paragraph-font);
+  font-size: 1.25rem;
+  text-align: center;
+}
+#email-ck{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5%;
 }
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {

@@ -151,8 +151,8 @@
           </table>
         </div>
         <div class="container">
-          <h3>We are happy with your decision</h3>
-          <form action="#" class="form">
+          <h3>Be a member of the chamber</h3>
+          <form action="thankyou.html" class="form" method="get">
             <div class="input-box">
               <label>Firs Name</label>
               <input type="text" placeholder="Enter your first name" required />
@@ -169,17 +169,34 @@
               <div class="input-box">
                 <label>Phone Number</label>
                 <input
-                  type="number"
+                  type="telephone "
                   placeholder="Enter phone number"
                   required
                 />
               </div>
             </div>
             <div class="input-box address">
-              <label>Address</label>
-              <input type="text" placeholder="Enter street address" required />
+              <label>Title or position</label>
+              <input type="text" placeholder="Within your organization" />
             </div>
-            <button>Submit</button>
+            <div class="input-box">
+              <label>Organization's name</label>
+              <input
+                type="text"
+                placeholder="Enter your organization's name,purpuse"
+                required
+              />
+            </div>
+            <div class="input-area">
+              <label>Description</label>
+              <textarea
+                id="organizationType"
+                name="organizationType"
+                placeholder="a business/organization's description"
+                required
+              ></textarea>
+            </div>
+            <button>Join the chamber</button>
           </form>
         </div>
       </section>
