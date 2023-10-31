@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form example</h1>
+    </header>
+    <main>
+      <form action="record.html" method="get">
+        <div>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            pattern="[a-zA-Z0-9]+"
+            minlength="8"
+          />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div>
+          <label for="confirmPassword">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            title="Please enter a valid email address"
+          />
+        </div>
+        <div>
+          <label for="pageRating">Page Rating:</label>
+          <input
+            type="range"
+            id="pageRating"
+            name="pageRating"
+            min="1"
+            max="10"
+            step="1"
+          />
+          <output for="pageRating">Rate us !</output>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      &copy;Ezequiel Rindello - <span id="date-placeholder"></span>| Last
+      Modified: <span id="lastModified-placeholder"></span>
+    </footer>
+    <script src="scripts/form.js"></script>
+  </body>
+</html>
