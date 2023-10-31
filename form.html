@@ -3,13 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="home page wdd230" />
+    <meta
+      property="og:title"
+      content="Rindello Ezequiel - WDD 230 - Web Frontend Development"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="author" content="Ezequiel Rindello" />
+    <meta
+      property="og:image"
+      content="https://mediaim.expedia.com/destination/1/15c19af6d32f4bdb8f5f454dedd0554e.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://ezequielrindello.github.io/wdd230/"
+    />
     <title>Form</title>
     <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body>
     <header>
-      <h1>Form example</h1>
+      <div class="name"><h1>Ezequiel rindello</h1></div>
     </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="nav-a" href="#" target="_blank">Home</a></li>
+        <li>
+          <a class="nav-a" href="chamber/siteplan.html" target="_blank"
+            >Site Plan</a
+          >
+        </li>
+        <li>
+          <a class="nav-a" href="chamber/index.html" target="_blank">Chamber</a>
+        </li>
+        <li>
+          <a
+            class="nav-a"
+            href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/16?lang=spa"
+            target="_blank"
+            >Scripture</a
+          >
+        </li>
+      </ul>
+    </nav>
     <main>
       <form action="record.html" method="get">
         <div>
@@ -59,9 +95,12 @@
           />
           <output for="pageRating">Rate us !</output>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" id="uniqueSubmitButton" class="custom-button">
+          Submit
+        </button>
       </form>
     </main>
+    <br /><br /><br /><br /><br /><br /><br /><br />
     <footer>
       &copy;Ezequiel Rindello - <span id="date-placeholder"></span>| Last
       Modified: <span id="lastModified-placeholder"></span>
