@@ -771,13 +771,12 @@ hr {
   height: 60px;
 }
 /* --------------------------------thank you page-------------------------------- */
-.thankyou{
+.thankyou {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 10%;
-  margin-bottom: 10%;
 }
 .thankyou h1 {
   font-family: var(--heading-font);
@@ -785,7 +784,7 @@ hr {
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
-  color: #1a1a1a;
+  color: var(--div-color);
   text-align: center;
   word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
@@ -796,12 +795,13 @@ hr {
   line-height: 1;
   color: #24b663;
 }
-.thankyou p{
+.thankyou p {
   font-family: var(--paragraph-font);
   font-size: 1.25rem;
   text-align: center;
+  color: var(--div-color);
 }
-#email-ck{
+#email-ck {
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
