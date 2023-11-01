@@ -682,6 +682,9 @@ hr {
   margin: 0;
   padding: 0 0 0 16px;
 }
+.responsive-table li{
+  padding: 4px;
+}
 .container {
   font-family: var(--paragraph-font);
   color: var(--div-color);
@@ -746,7 +749,7 @@ hr {
   color: var(--div-color);
   font-size: 1rem;
 }
-.form button {
+.button {
   height: 55px;
   width: 100%;
   color: #fff;
@@ -758,7 +761,7 @@ hr {
   transition: all 0.2s ease;
   background: rgb(130, 106, 251);
 }
-.form button:hover {
+.button:hover {
   background: rgb(88, 56, 250);
 }
 .input-area {
@@ -769,6 +772,11 @@ hr {
 .input-area textarea {
   margin-top: 20px;
   height: 60px;
+}
+select{
+  margin-left: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
 }
 /* --------------------------------thank you page-------------------------------- */
 .thankyou {
