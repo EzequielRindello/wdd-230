@@ -779,6 +779,9 @@ select {
   padding: 3px 10px;
   border-radius: 5px;
 }
+.hidden-label{
+  display: none;
+}
 /* --------------------------------thank you page-------------------------------- */
 .thankyou {
   display: flex;
