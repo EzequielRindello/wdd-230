@@ -779,7 +779,7 @@ select {
   padding: 3px 10px;
   border-radius: 5px;
 }
-#label-imestamp {
+.hidden-label{
   display: none;
 }
 /* --------------------------------thank you page-------------------------------- */

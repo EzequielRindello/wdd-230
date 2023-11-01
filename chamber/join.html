@@ -23,10 +23,7 @@
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="../styles/normalize.css" />
     <!-- meta tags -->
-    <meta
-      name="description"
-      content="join us form"
-    />
+    <meta name="description" content="join us form" />
     <meta property="og:title" content="Discover page" />
     <meta property="og:type" content="website" />
     <meta name="author" content="Ezequiel Rindello" />
@@ -154,10 +151,8 @@
           </table>
         </div>
         <div class="container">
+          <h3>Be a member of the chamber</h3>
           <form action="thankyou.html" class="form" method="get">
-            <label for="Be a member of the chambe">
-              <h3>Be a member of the chamber</h3>
-            </label>
             <div class="input-box">
               <label for="applicant_first_name">Firs Name</label>
               <input
@@ -224,8 +219,10 @@
               />
             </div>
             <div class="input-box">
-              <label>Select a Product</label>
-              <select name="product" required>
+              <select id="membership_type" name="membership_type" required>
+                <option value="" disabled selected>
+                  Select membership type
+                </option>
                 <option value="NP Membership">NP Membership</option>
                 <option value="Bronze Membership">Bronze Membership</option>
                 <option value="Silver Membership">Silver Membership</option>
@@ -241,15 +238,20 @@
                 required=""
               ></textarea>
             </div>
-            <label id="label-imestamp" for="timestamp">Timestamp:</label>
+            <label for="submit-button" class="hidden-label">Timestamp:</label>
             <input
               class="button"
               type="hidden"
               id="timestamp"
               name="timestamp"
             />
-            <input class="button" type="submit" value="Submit" />
-            <label for="buttom"><button style="display: none;">.</button></label>
+            <input
+              class="button"
+              type="submit"
+              id="submit-button"
+              value="Submit"
+            />
+            <label for="buttom"><button style="display: none">.</button></label>
           </form>
         </div>
       </section>
