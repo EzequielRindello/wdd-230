@@ -1,0 +1,128 @@
+{
+  "course": {
+    "title": "WDD 230: Web Frontend Development",
+    "learning_activities": [
+      {
+        "week": "Week 01",
+        "activities": [
+          {
+            "title": "Holy Grail",
+            "url": "lesson01/holy-grail.html"
+          },
+          {
+            "title": "Applied JS",
+            "url": "lesson01/applied-js.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "activities": [
+          {
+            "title": "Media Query",
+            "url": "lesson01/media-query.htm"
+          },
+          {
+            "title": "Grid example",
+            "url": "lesson02/grid-example.html"
+          },
+          {
+            "title": "Design Principles",
+            "url": "lesson02/design-principles.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "activities": [
+          {
+            "title": "Pseudo-element activity",
+            "url": "https://codepen.io/EzequielRindello/pen/yLGjLML"
+          },
+          {
+            "title": "Chamber site plan",
+            "url": "lesson03/chamber-site-plan.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "activities": [
+          {
+            "title": "Labels",
+            "url": "lesson04/labels.html"
+          },
+          {
+            "title": "Pseudo-class Fun",
+            "url": "https://codepen.io/blazzard-jason/pen/bGKLQMp"
+          }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "activities": [
+          {
+            "title": "To Do List",
+            "url": "lesson05/to-do.html"
+          },
+          {
+            "title": "Favourite Book List",
+            "url": "lesson05/bom.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 06",
+        "activities": [
+          {
+            "title": "Responsive Img",
+            "url": "lesson03/responsive-images.html"
+          },
+          {
+            "title": "WebP",
+            "url": "lesson03/images/landscape.webp"
+          }
+        ]
+      },
+      {
+        "week": "Week 07",
+        "activities": [
+          {
+            "title": "Lazy Load",
+            "url": "lesson03/lazyload.htm"
+          }
+        ]
+      },
+      {
+        "week": "Week 08",
+        "activities": [
+          {
+            "title": "HTML Table",
+            "url": "lesson08/tablebuild.html"
+          },
+          {
+            "title": "Form",
+            "url": "form.html"
+          }
+        ]
+      },
+      {
+        "week": "Week 09",
+        "activities": [
+          {
+            "title": "APIs",
+            "url": "lesson09/api.html"
+          }
+        ]
+      },
+      {
+        "activities": [
+          {
+            "title": "Chamber",
+            "url": "chamber/index.html"
+          }
+        ]
+      }
+    ]
+  }
+}

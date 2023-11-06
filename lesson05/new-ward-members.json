@@ -1,0 +1,28 @@
+{
+  "familyName": "Rindello",
+  "moveInDate": "2013-11-06",
+  "numFamilyMembers": 4,
+  "visitedByBishopric": false,
+  "familyMembers": [
+    {
+      "name": "Gabriela Retambay",
+      "gender": "Female",
+      "birthdate": "1990-05-15"
+    },
+    {
+      "name": "Gianella Rindello",
+      "gender": "Female",
+      "birthdate": "1992-08-20"
+    },
+    {
+      "name": "Ornella Rindello",
+      "gender": "Female",
+      "birthdate": "2015-03-10"
+    },
+    {
+      "name": "Ezequiel Rindello",
+      "gender": "Male",
+      "birthdate": "2018-07-25"
+    }
+  ]
+}

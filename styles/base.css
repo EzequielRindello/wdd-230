@@ -140,11 +140,11 @@ footer {
   grid-row: 3;
   position: relative;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  height: 400px;
+  height: fit-content;
 }
 .hero img {
   width: 100%;
-  height: 400px;
+  height: auto;
   object-fit: cover;
 }
 .herolabel {
