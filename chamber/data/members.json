@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Company 1",
+    "address": "123 Main St, City, State 12345",
+    "phone": "123-456-7890",
+    "website": "https://www.company1.com",
+    "image": "company1.jpg",
+    "membership_level": "Gold",
+    "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "name": "Company 2",
+    "address": "456 Elm St, City, State 54321",
+    "phone": "987-654-3210",
+    "website": "https://www.company2.com",
+    "image": "company2.jpg",
+    "membership_level": "Silver",
+    "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "Company 3",
+    "address": "789 Oak St, City, State 67890",
+    "phone": "555-123-4567",
+    "website": "https://www.company3.com",
+    "image": "company3.jpg",
+    "membership_level": "Bronze",
+    "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  {
+    "name": "Company 4",
+    "address": "321 Maple St, City, State 54321",
+    "phone": "888-777-6666",
+    "website": "https://www.company4.com",
+    "image": "company4.jpg",
+    "membership_level": "Platinum",
+    "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+  },
+  {
+    "name": "Company 5",
+    "address": "555 Pine St, City, State 99999",
+    "phone": "777-888-9999",
+    "website": "https://www.company5.com",
+    "image": "company5.jpg",
+    "membership_level": "Gold",
+    "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+  },
+  {
+    "name": "Company 6",
+    "address": "987 Cedar St, City, State 45678",
+    "phone": "111-222-3333",
+    "website": "https://www.company6.com",
+    "image": "company6.jpg",
+    "membership_level": "Silver",
+    "other_information": "Deserunt mollit anim id est laborum."
+  },
+  {
+    "name": "Company 7",
+    "address": "654 Birch St, City, State 78901",
+    "phone": "444-555-6666",
+    "website": "https://www.company7.com",
+    "image": "company7.jpg",
+    "membership_level": "Bronze",
+    "other_information": "Cupidatat non proident, sunt in culpa qui officia."
+  }
+]

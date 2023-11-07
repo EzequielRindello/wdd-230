@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank You</title>
+    <title>Chamber of Commerce patagonian chamberwines</title>
     <!-- links -->
     <link
       rel="stylesheet"
@@ -27,7 +27,10 @@
       name="description"
       content="pagina creada para demostrar habilidades con CSS, HTML Y JavaScript"
     />
-    <meta property="og:title" content="Thank You" />
+    <meta
+      property="og:title"
+      content="Chamber of Commerce patagonian chamberwines"
+    />
     <meta property="og:type" content="website" />
     <meta name="author" content="Ezequiel Rindello" />
     <meta
@@ -66,19 +69,16 @@
       </button>
     </header>
     <main>
-      <div class="thankyou">
-        <h1>THANK YOU!</h1>
-
-        <i class="bi bi-check-lg"></i>
-        <p>
-          Thanks a bunch for filling that out. It means a lot to us, just like
-          you do! We really appreciate you giving us a moment of your time
-          today. Thanks for being you.
-        </p>
-        <p id="email-ck">Please check your email for more information</p>
+      <h2 class="second-heading">Members of our chamber</h2>
+      <div class="menu">
+        <button id="grid">⏹️Grid</button>
+        <button id="list">📄List</button>
       </div>
+      <article class="grid">
+        <div id="members-container"></div>
+      </article>
     </main>
-    <footer style="position: fixed;">
+    <footer>
       <div>
         &copy;<a href="../lesson03/chamber-site-plan.html" target="_blank"
           >Ezequiel Rindello</a
@@ -113,5 +113,6 @@
     <script src="scripts/date.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/movile-menu.js"></script>
+    <script src="scripts/member.js"></script>
   </body>
 </html>
