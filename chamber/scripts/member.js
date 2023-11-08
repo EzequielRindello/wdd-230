@@ -26,8 +26,8 @@ fetch("data/members.json")
         <p>${company.address}</p>
         <p>Phone: ${company.phone}</p>
         <p>Membership Level: ${company.membership_level}</p>
-        <p>Other Information: ${company.other_information}</p>
-        <a href="${company.website}" target="_blank">Website</a>
+        <p style="font-style: italic; font-weight: bold;">${company.other_information}</p>
+        <strong><a href="${company.website}" target="_blank">Website</a></strong>
       `;
 
       display.appendChild(companyDiv);

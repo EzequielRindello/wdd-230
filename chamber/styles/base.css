@@ -821,11 +821,15 @@ select {
 }
 /* --------------------------------directory page-------------------------------- */
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 1rem auto;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
-  background-color: #bed;
   text-align: center;
+}
+.menu div {
+  margin: 20px;
 }
 .menu button {
   padding: 1rem;
@@ -837,12 +841,13 @@ select {
   justify-content: center;
   transition: 1s all ease-in-out;
 }
-section {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+.directory-main section {
   padding: 0.5rem;
-  background-color: #eee;
+  background-color: var(--div-background);
   margin: 20px;
   flex-basis: calc(33.33% - 40px);
+  box-shadow: 4px 4px 4px 0px rgb(82, 79, 79);
+  border-radius: 5px;
 }
 .grid section {
   text-align: center;
@@ -850,12 +855,20 @@ section {
 .grid img {
   border: 1px solid #fff;
   box-shadow: 0 0 10px #333;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.grid img:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+  transform: scale(1.5);
 }
 .grid section > * {
   margin: 0.1rem;
 }
 .grid h3 {
   font-family: var(--paragraph-font);
+  margin: 20px;
 }
 .list {
   display: flex;
@@ -866,6 +879,7 @@ section {
   grid-template-columns: 2fr 1fr 1fr;
   margin: 0;
   padding: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 .list section > * {
   margin: 0 1rem;
@@ -873,24 +887,28 @@ section {
 .list section h3 {
   font-size: 1rem;
 }
-.list section:nth-child(even) {
-  background-color: #bed;
-}
-section h3 {
+.directory-main section h3 {
   font-size: 1.5rem;
 }
-section p {
+.directory-main section p {
+  font-family: var(--paragraph-font);
+  color: var(--div-color);
+  font-size: 16px;
   font-weight: 600;
   font-size: smaller;
+  padding-bottom: 20px;
 }
-section a {
+.directory-main section a {
+  font-family: var(--paragraph-font);
   font-size: 0.85rem;
-  color: navy;
   letter-spacing: 1.1pt;
 }
-img {
+.directory-main img {
   height: 75px;
   max-width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 20px;
 }
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
