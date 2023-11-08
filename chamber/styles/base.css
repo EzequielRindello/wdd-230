@@ -835,6 +835,9 @@ select {
   padding: 1rem;
   font-weight: 700;
 }
+.menu i{
+  font-size: 2rem;
+}
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -851,6 +854,7 @@ select {
 }
 .grid section {
   text-align: center;
+  min-width: 300px;
 }
 .grid img {
   border: 1px solid #fff;
