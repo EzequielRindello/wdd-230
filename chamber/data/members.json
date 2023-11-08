@@ -1,65 +1,83 @@
 [
   {
-    "name": "Company 1",
-    "address": "123 Main St, City, State 12345",
-    "phone": "123-456-7890",
-    "website": "https://www.company1.com",
-    "image": "company1.jpg",
+    "name": "Bodega Catena Zapata",
+    "address": "123 Main St, Mendoza, Argentina",
+    "phone": "+54 9 2615 07-6901",
+    "website": "https://catenazapata.com/es/index-es.php",
+    "image": "images/catena-zapata-logo.webp",
     "membership_level": "Gold",
-    "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "other_information": "Number 1 vineyard in the world according to World's Best Vineyards."
   },
   {
-    "name": "Company 2",
-    "address": "456 Elm St, City, State 54321",
-    "phone": "987-654-3210",
-    "website": "https://www.company2.com",
-    "image": "company2.jpg",
+    "name": "Bodega Norton",
+    "address": "456 Vineyard Ave, Mendoza, Argentina",
+    "phone": "+54 9 2610 12-3456",
+    "website": "https://www.norton.com.ar/",
+    "image": "images/norton-logo.webp",
     "membership_level": "Silver",
-    "other_information": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "other_information": "Offer a wide range of wines, including Malbec, Cabernet Sauvignon, and more."
   },
   {
-    "name": "Company 3",
-    "address": "789 Oak St, City, State 67890",
-    "phone": "555-123-4567",
-    "website": "https://www.company3.com",
-    "image": "company3.jpg",
+    "name": "Bodega Trapiche",
+    "address": "789 Grape St, Mendoza, Argentina",
+    "phone": "+54 9 2612 34-5678",
+    "website": "https://www.trapiche.com.ar/",
+    "image": "images/trapiche.webp",
     "membership_level": "Bronze",
-    "other_information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    "other_information": "One of the largest wineries in Argentina, known for its diverse range of quality wines."
   },
   {
-    "name": "Company 4",
-    "address": "321 Maple St, City, State 54321",
-    "phone": "888-777-6666",
-    "website": "https://www.company4.com",
-    "image": "company4.jpg",
+    "name": "Bodega Luigi Bosca",
+    "address": "321 Oak Lane, Mendoza, Argentina",
+    "phone": "+54 9 2613 45-6789",
+    "website": "https://luigibosca.com/",
+    "image": "images/luigi-bosca-logo.webp",
     "membership_level": "Platinum",
-    "other_information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+    "other_information": "Famous for its red wines, especially Malbec."
   },
   {
-    "name": "Company 5",
-    "address": "555 Pine St, City, State 99999",
-    "phone": "777-888-9999",
-    "website": "https://www.company5.com",
-    "image": "company5.jpg",
+    "name": "Bodega Achával-Ferrer",
+    "address": "555 Red Wine Rd, Mendoza, Argentina",
+    "phone": "+54 9 2614 56-7890",
+    "website": "https://achaval-ferrer.com/",
+    "image": "images/achaval-ferrer-logo.webp",
     "membership_level": "Gold",
-    "other_information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+    "other_information": "Renowned for its high-end red wines, such as Quimera and Finca Altamira."
   },
   {
-    "name": "Company 6",
-    "address": "987 Cedar St, City, State 45678",
-    "phone": "111-222-3333",
-    "website": "https://www.company6.com",
-    "image": "company6.jpg",
+    "name": "Bodega Zuccardi",
+    "address": "987 Sustainable St, Mendoza, Argentina",
+    "phone": "+54 9 2615 67-8901",
+    "website": "https://zuccardiwines.com/",
+    "image": "images/zuccardi-logo.webp",
     "membership_level": "Silver",
-    "other_information": "Deserunt mollit anim id est laborum."
+    "other_information": "Known for its focus on sustainability and quality wines, such as their 'Zuccardi Q' series."
   },
   {
-    "name": "Company 7",
-    "address": "654 Birch St, City, State 78901",
-    "phone": "444-555-6666",
-    "website": "https://www.company7.com",
-    "image": "company7.jpg",
+    "name": "Bodega Terrazas de los Andes",
+    "address": "654 Andes View Rd, Mendoza, Argentina",
+    "phone": "+54 9 2616 78-9012",
+    "website": "https://www.terrazasdelosandes.com/es-ar",
+    "image": "images/terrazas-de-los-andes-logo.webp",
     "membership_level": "Bronze",
-    "other_information": "Cupidatat non proident, sunt in culpa qui officia."
+    "other_information": "Part of the Moët Hennessy group, specializing in high-altitude wines."
+  },
+  {
+    "name": "Bodega Alta Vista",
+    "address": "111 Mountain Rd, Mendoza, Argentina",
+    "phone": "+54 9 2617 89-0123",
+    "website": "https://tienda.altavistawines.com/",
+    "image": "images/alta-vista-logo.webp",
+    "membership_level": "Gold",
+    "other_information": "Noted for its Malbec and other varietals."
+  },
+  {
+    "name": "Bodega Finca Decero",
+    "address": "222 Decero Lane, Mendoza, Argentina",
+    "phone": "+54 9 2618 90-1234",
+    "website": "https://fincadecero.com/es/",
+    "image": "images/finca-decero-logo.webp",
+    "membership_level": "Silver",
+    "other_information": "Known for its focus on terroir wines and its 'Remolinos Vineyard Malbec.'"
   }
 ]

@@ -142,7 +142,7 @@
   .main-join p {
     font-size: 16px;
   }
-  .grid-join{
+  .grid-join {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -160,8 +160,11 @@
   .thankyou i {
     font-size: 8rem;
   }
-  .thankyou p{
+  .thankyou p {
     font-size: 18px;
     text-align: center;
+  }
+  .list section img {
+    display: none;
   }
 }

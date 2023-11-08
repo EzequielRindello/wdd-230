@@ -1,44 +1,38 @@
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+const display = document.querySelector("#members-container");
 
 gridbutton.addEventListener("click", () => {
-    // example using arrow function
-    display.classList.add("grid");
-    display.classList.remove("list");
+  display.classList.add("grid");
+  display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList);
 
 function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
+  display.classList.add("list");
+  display.classList.remove("grid");
 }
 
 
-const membersContainer = document.getElementById("members-container");
-
-// Cargar el archivo JSON
 fetch("data/members.json")
-    .then((response) => response.json())
-    .then((data) => {
-        // Recorre los datos y crea elementos HTML para cada miembro
-        data.forEach((member) => {
-            const memberSection = document.createElement("section");
-            memberSection.innerHTML = `
-        <img src="${member.image}" alt="${member.name}" />
-        <h3>${member.name}</h3>
-        <p>${member.address}</p>
-        <p>Phone: ${member.phone}</p>
-        <p>Membership Level: ${member.membership_level}</p>
-        <p>Other Information: ${member.other_information}</p>
-        <a href="${member.website}" target="_blank">Website</a>
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((company) => {
+      const companyDiv = document.createElement("section");
+      companyDiv.innerHTML = `
+        <img src="${company.image}" alt="${company.name}" />
+        <h3>${company.name}</h3>
+        <p>${company.address}</p>
+        <p>Phone: ${company.phone}</p>
+        <p>Membership Level: ${company.membership_level}</p>
+        <p>Other Information: ${company.other_information}</p>
+        <a href="${company.website}" target="_blank">Website</a>
       `;
-            membersContainer.appendChild(memberSection);
-        });
-    })
-    .catch((error) => {
-        console.error("Error al cargar el archivo JSON:", error);
+
+      display.appendChild(companyDiv);
     });
+  })
+  .catch((error) => {
+    console.error("Error loading the JSON file:", error);
+  });

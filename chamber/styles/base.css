@@ -831,16 +831,18 @@ select {
   padding: 1rem;
   font-weight: 700;
 }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 1s all ease-in-out;
+}
 section {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
   background-color: #eee;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 5px;
-  align-items: center;
+  margin: 20px;
+  flex-basis: calc(33.33% - 40px);
 }
 .grid section {
   text-align: center;
@@ -853,7 +855,7 @@ section {
   margin: 0.1rem;
 }
 .grid h3 {
-  font-family: "Caveat", cursive;
+  font-family: var(--paragraph-font);
 }
 .list {
   display: flex;
@@ -867,9 +869,6 @@ section {
 }
 .list section > * {
   margin: 0 1rem;
-}
-.list section img {
-  display: none; /* smaller viewports only */
 }
 .list section h3 {
   font-size: 1rem;
@@ -891,7 +890,7 @@ section a {
 }
 img {
   height: 75px;
-  max-width: 100%; /* Images are jerks - Seattle*/
+  max-width: 100%;
 }
 /* --------------------------------keyframes-------------------------------- */
 @keyframes banner {
