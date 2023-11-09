@@ -825,18 +825,27 @@ select {
   align-items: center;
   justify-content: center;
   margin: 1rem auto;
-  padding: 0.5rem;
+  padding: 20px;
   text-align: center;
 }
-.menu div {
+.menu h3{
+  margin-right: 60px;
+}
+.menu div button{
   margin: 20px;
 }
 .menu button {
-  padding: 1rem;
+  all: unset;
   font-weight: 700;
+  cursor: pointer;
 }
 .menu i{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: var(--div-color);
+}
+.menu i:hover {
+  color: #e64a19;
+  transition: 0.5s ease-in-out;
 }
 .grid {
   display: flex;

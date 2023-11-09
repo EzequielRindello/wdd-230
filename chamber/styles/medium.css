@@ -167,4 +167,7 @@
   .list section img {
     display: none;
   }
+  .directory-main section {
+    margin: 10px;
+  }
 }
