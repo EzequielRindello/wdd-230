@@ -894,6 +894,9 @@ select {
   padding: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
+.list img{
+  display: none;
+}
 .list section > * {
   margin: 0 1rem;
 }
