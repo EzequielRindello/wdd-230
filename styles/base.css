@@ -134,6 +134,13 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
+/* ---------------------------------------id selectors--------------------------------------------------------- */
+#weather-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 /* ---------------------------------------hero img--------------------------------------------------------- */
 .hero {
   grid-column: 1/3;

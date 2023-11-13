@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 week.activities.forEach(function (activity, index) {
                     html += `<a href="${activity.url}" target="_blank">${activity.title}</a>`;
                     if (index < week.activities.length - 1) {
-                        html += " | ";
+                        html += "<strong> | </strong>";
                     }
                 });
                 html += "</li>";
@@ -32,4 +32,3 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error loading JSON file: " + error);
         });
 });
-
