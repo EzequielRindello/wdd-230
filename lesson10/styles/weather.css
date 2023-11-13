@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    padding: 20px;
+    font-size: 2em;
+}
+section {
+  text-align: center;
+  max-width: 600px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+footer{
+    margin-top: 20px;
+}

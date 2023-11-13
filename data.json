@@ -120,6 +120,15 @@
         ]
       },
       {
+        "week": "Week 10",
+        "activities": [
+          {
+            "title": "OpenWeatherMap.org API Test",
+            "url": "lesson10/weather.html"
+          }
+        ]
+      },
+      {
         "week": "Final Week",
         "activities": [
           {
