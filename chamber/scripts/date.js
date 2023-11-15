@@ -30,3 +30,7 @@ function isSmallScreen() {
 if (isBannerDay() && !isSmallScreen()) {
     document.getElementById('chamberBanner').style.display = 'block';
 }
+
+function closeBanner() {
+    document.getElementById('chamberBanner').style.display = 'none';
+}
