@@ -43,6 +43,13 @@
     />
   </head>
   <body>
+    <div id="chamberBanner">
+      <p>
+        Don't miss the Chamber of Commerce Meet and Greet on Wednesday at
+        7:00 p.m.!
+      </p>
+      <span id="closeButton" onclick="closeBanner()">✖</span>
+    </div>
     <header>
       <a href="index.html">
         <div class="logo">
@@ -92,9 +99,6 @@
     <br />
     <main class="main-homepage">
       <h2 class="second-heading">Immerse yourself in Our Local Culture</h2>
-      <!-- <div>
-        crear lo de la semana y agregar cosas
-      </div> -->
       <div class="info" id="myDiv">
         <div class="events">
           <div>
@@ -109,16 +113,11 @@
               tastings with exquisite gourmet tapas and engage conversations
               with wine lovers and experts in the sector. Enjoy live music while
               you immerse yourself in the magic of the flavors and aromas.
-              <br>
-              <strong
-                ><a href="discover.html"
-                  >Discover more!</a
-                ></strong
-              >
+              <br />
+              <strong><a href="discover.html">Discover more!</a></strong>
             </p>
           </div>
         </div>
-
         <div class="card">
           <div class="weather">
             <img
@@ -127,8 +126,10 @@
               alt="weather-img"
               class="weather-icon"
             />
-            <h2 class="temp">27°C</h2>
             <h3 class="city">Argentina</h3>
+            <br />
+            <h2 class="temp">27°C</h2>
+            <span id="weather-description"></span>
           </div>
           <div class="details">
             <div class="col">

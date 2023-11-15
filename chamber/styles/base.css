@@ -349,6 +349,9 @@ strong a:hover {
   font-size: 20px;
   margin-top: 10px;
 }
+#weather-description {
+  padding: 20px;
+}
 /* --------------------------------spotlights-------------------------------- */
 .spotlights {
   grid-column: 2/4;
@@ -384,6 +387,24 @@ strong a:hover {
 }
 #imageDescription {
   font-family: var(--heading-font);
+}
+#chamberBanner {
+  display: none;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+#closeButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
 }
 /* --------------------------------dark mode toggle-------------------------------- */
 #dark-mode {
@@ -829,10 +850,10 @@ select {
   padding: 20px;
   text-align: center;
 }
-.menu h3{
+.menu h3 {
   margin-right: 60px;
 }
-.menu div button{
+.menu div button {
   margin: 20px;
 }
 .menu button {
@@ -840,7 +861,7 @@ select {
   font-weight: 700;
   cursor: pointer;
 }
-.menu i{
+.menu i {
   font-size: 2.5rem;
   color: var(--div-color);
 }
@@ -895,7 +916,7 @@ select {
   padding: 0.25rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
-.list img{
+.list img {
   display: none;
 }
 .list section > * {

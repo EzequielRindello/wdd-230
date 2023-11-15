@@ -4,16 +4,20 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=A
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
+const description = document.getElementById("weather-description");
 
 async function checkWeather() {
-
     const response = await fetch(apiUrl + `&appid=${apiKey}`);
     const data = await response.json();
 
-    document.querySelector(".city").innerHTML = "Argentina"; // Establece el nombre de la ciudad como "Argentina"
+    document.querySelector(".city").innerHTML = "Argentina";
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+
+    const descriptionWords = data.weather[0].description.split(' ');
+    const capitalizedDesc = descriptionWords.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    description.innerHTML = `<p>${capitalizedDesc}</p>`;
 
     if (data.weather[0].main == "Clouds") {
         weatherIcon.src = "images/clouds.webp";
@@ -26,7 +30,7 @@ async function checkWeather() {
     } else if (data.weather[0].main == "Mist") {
         weatherIcon.src = "images/mist.webp";
     }
-
 }
 
-checkWeather(); // Llama a checkWeather al cargar la página para mostrar el clima de Argentina automáticamente   
+// Call checkWeather after the window has fully loaded
+window.addEventListener('load', checkWeather);
