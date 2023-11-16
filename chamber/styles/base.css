@@ -406,6 +406,48 @@ strong a:hover {
   right: 10px;
   cursor: pointer;
 }
+.upcoming-events {
+  grid-column: 2/4;
+  background-color: var(--div-background);
+  color: var(--div-color);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 0px rgb(82, 79, 79);
+  margin-top: 150px;
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px;
+}
+.box {
+  margin: 1rem;
+  padding: 1.5rem;
+  width: fit-content;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  transition: 0.3s ease-in-out;
+}
+.box p,.box span {
+  color: #ffffff;
+  margin: 10px;
+}
+.box a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.box a:hover{
+  text-decoration: underline;
+}
+.box:hover {
+  background-color: var(--hover-color);
+}
+#h3-le{
+  text-align: left;
+  margin-left: 2%;
+  text-transform: uppercase;
+}
 /* --------------------------------dark mode toggle-------------------------------- */
 #dark-mode {
   background-color: transparent;
