@@ -171,8 +171,8 @@
     margin: 10px;
   }
   .footer-banner h4,
-  p,
-  hr {
+  .footer-banner p,
+  .footer-banner hr {
     display: none;
   }
 }
