@@ -476,6 +476,13 @@ strong a:hover {
   margin-left: 2%;
   text-transform: uppercase;
 }
+.box ul{
+  color: #ffffff;
+  margin-left: 20%;
+}
+.box li{
+  padding: 5px;
+}
 /* --------------------------------dark mode toggle-------------------------------- */
 #dark-mode {
   background-color: transparent;
