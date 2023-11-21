@@ -170,4 +170,9 @@
   .directory-main section {
     margin: 10px;
   }
+  .footer-banner h4,
+  p,
+  hr {
+    display: none;
+  }
 }
