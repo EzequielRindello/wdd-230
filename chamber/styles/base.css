@@ -476,11 +476,11 @@ strong a:hover {
   margin-left: 2%;
   text-transform: uppercase;
 }
-.box ul{
+.box ul {
   color: #ffffff;
   margin-left: 20%;
 }
-.box li{
+.box li {
   padding: 5px;
 }
 /* --------------------------------dark mode toggle-------------------------------- */
@@ -812,6 +812,9 @@ hr {
 .input-box label {
   color: var(--div-color);
 }
+.container input {
+  background-color: var(--background-color);
+}
 .form :where(.input-box input, .select-box) {
   position: relative;
   height: 50px;
@@ -858,7 +861,7 @@ hr {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: rgb(88, 56, 250);
+  background: rgb(88, 56, 250) !important;
   transition: transform 0.5s ease-in-out;
 }
 .button:hover {
