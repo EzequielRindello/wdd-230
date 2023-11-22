@@ -175,4 +175,7 @@
   .footer-banner hr {
     display: none;
   }
+  #day-of-week-movile{
+    display: none;
+  }
 }

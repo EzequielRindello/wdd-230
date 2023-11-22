@@ -56,7 +56,7 @@ function displayForecast(forecastContainer, day) {
     const capitalizedDesc = descriptionWords.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
     forecastContainer.innerHTML = `
-        <span>${dayOfWeek}</span>
+        <span id="day-of-week-movile">${dayOfWeek}</span>
         <span>${Math.round(day.main.temp)}°C - ${capitalizedDesc}</span>
     `;
 }
