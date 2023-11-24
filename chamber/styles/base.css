@@ -472,7 +472,9 @@ strong a:hover {
 .box:hover {
   background-color: var(--hover-color);
 }
-#h3-le {
+#h3-le1,
+#h3-le2,
+#h3-le3 {
   text-align: left;
   margin-left: 2%;
   text-transform: uppercase;
