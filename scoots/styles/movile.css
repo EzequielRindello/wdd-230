@@ -17,8 +17,27 @@
   .banner img {
     width: 100%;
   }
-  .member-log-btn,.header-logo i{
+  .member-log-btn,.header-logo i,.navbar a,.dropdown{
     display: none;
+  }
+  #menu-icon {
+    display: block;
+    text-align: center;
+  }
+  #menu-icon i{
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .navbar a, .dropdown {
+    display: none;
+  }
+  .navbar.show a, .navbar.show {
+    display: block;
+  }
+  .navbar.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
