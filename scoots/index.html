@@ -46,6 +46,10 @@
       property="og:url"
       content="https://ezequielrindello.github.io/wdd230/"
     />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="interest-cohort=(), user-id=()"
+    />
     <!-- css -->
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/movile.css" />
@@ -126,7 +130,8 @@
           <p>
             Discover elegance in motion with the Honda PCX 150. Its
             sophisticated design combines with exceptional performance, offering
-            a unique riding experience. Explore the city with style and comfort.
+            a unique riding experience. Explore the island with style and
+            comfort.
           </p>
           <button aria-label="moore info">
             <a href="rentals.html">More Info</a>
@@ -169,7 +174,51 @@
           <img src="images/zanella.webp" alt="Zanella" />
         </div>
       </div>
-      <div class="weather"></div>
+      <hr />
+      <div class="weather">
+        <div class="weather-div">
+          <br />
+          <div class="note">
+            <h3>Weather information</h3>
+            <span class="subtitle"
+              >It is important that you know the weather when choosing our
+              services. We recommend that you view before booking.</span
+            >
+            <div class="open-wather">
+              <span class="city">Cozumel</span>
+              <span class="temp">27Cº -</span>
+              <span id="weather-description">Clear Sky</span>
+              <span>|</span>
+              <span>2 days forecast</span>
+              <br /><br />
+              <span class="one-day-forecast">21Cº</span>
+              <span class="two-day-forecast">25Cº</span>
+            </div>
+          </div>
+        </div>
+        <div class="popup">
+          <form class="form">
+            <div class="icon">
+              <i class="bi bi-envelope-paper-fill"></i>
+            </div>
+            <div class="note">
+              <label class="title">Subscribe for updates</label>
+              <span class="subtitle"
+                >Subscribe to this weekly news letter so you do not miss out on
+                the new island topics.</span
+              >
+            </div>
+            <input
+              placeholder="Enter your e-mail"
+              title="Enter your e-mail"
+              name="email"
+              type="email"
+              class="input_field"
+            />
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </main>
     <hr />
     <footer id="footer">
