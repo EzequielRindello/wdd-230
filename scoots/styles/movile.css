@@ -17,6 +17,9 @@
   .banner img {
     width: 100%;
   }
+  .member-log-btn,.header-logo i{
+    display: none;
+  }
 }
 
 @media (max-width: 1176px) {

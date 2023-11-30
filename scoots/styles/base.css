@@ -206,7 +206,7 @@ p {
   margin: 0 1em 0.5em 0;
   transition: 0.2s ease-out;
 }
-.rentals a{
+.rentals a {
   color: #1f1f1f;
   font-size: 18px;
   font-weight: bold;
@@ -215,6 +215,23 @@ p {
 }
 .rentals button:hover {
   background-color: #acdbda;
+}
+/*--------------------------------------------partners-------------------------------------------- */
+.partners {
+  text-align: center;
+  margin-bottom: 8%;
+}
+.partners img {
+  width: 150px;
+  height: auto;
+}
+.partners-hr {
+  background: linear-gradient(90deg, #ffb26e 0%, #f68769 100%);
+  width: 20%;
+  height: 2px;
+  margin: 1.45rem auto;
+  margin-top: 3%;
+  border: none;
 }
 /*--------------------------------------------footer-------------------------------------------- */
 footer {
