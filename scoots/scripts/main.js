@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// funcion para eliminar errores de wave report
+function redirectTo(url) {
+    window.location.href = url;
+}
+
 // weather forecast and info
 const apiKey = "942cb3e734cbba69ea8a179cac8e553d";
 const encodedCity = encodeURIComponent("Cozumel, MX");
