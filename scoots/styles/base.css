@@ -55,6 +55,13 @@ header {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
+.header-button a {
+  text-decoration: none;
+  color: var(--color1);
+}
+.header-button button:hover > a {
+  color: #f68769;
+}
 .header-button button:hover {
   background-color: black;
   color: #f68769;
