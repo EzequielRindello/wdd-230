@@ -45,6 +45,12 @@
   .weather div{
     margin-bottom: 6%;
   }
+  #cards img {
+    width: 400px;
+  }
+  #cards {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1176px) {

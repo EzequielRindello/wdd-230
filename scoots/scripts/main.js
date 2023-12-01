@@ -120,7 +120,7 @@ async function getCardData() {
             vehicleImage.setAttribute('src', vehicle.imageurl);
             vehicleImage.setAttribute('alt', `image of ${vehicle.nombre}`);
             vehicleImage.setAttribute('loading', 'lazy');
-            vehicleImage.setAttribute('width', '600');
+            vehicleImage.setAttribute('width', '500');
             vehicleImage.setAttribute('height', 'auto');
 
             // Append the section(card) with the created elements
