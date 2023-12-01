@@ -1,0 +1,94 @@
+{
+  "opcionesderenta": [
+    {
+      "nombre": "Honda Metro Scooter",
+      "tipo": "Scooter",
+      "marca": "Honda",
+      "maximodepersonas": 1,
+      "mediodia": {
+        "precio": 20,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 30,
+        "duracion": 0
+      },
+      "imageurl": "../images/honda-metro.jpg"
+    },
+    {
+      "nombre": "Honda Dio Scooter",
+      "tipo": "Scooter",
+      "marca": "Honda",
+      "maximodepersonas": 2,
+      "mediodia": {
+        "precio": 30,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 40,
+        "duracion": 0
+      },
+      "imageurl": "../images/honda-dio.jpg"
+    },
+    {
+      "nombre": "Honda PCX150 Scooter",
+      "tipo": "Scooter",
+      "marca": "Honda",
+      "maximodepersonas": 2,
+      "mediodia": {
+        "precio": 40,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 50,
+        "duracion": 0
+      },
+      "imageurl": "../images/honda-pcx-150.jpg"
+    },
+    {
+      "nombre": "Honda Pioneer ATV",
+      "tipo": "ATV",
+      "marca": "Honda",
+      "maximodepersonas": 4,
+      "mediodia": {
+        "precio": 50,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 70,
+        "duracion": 0
+      },
+      "imageurl": "../images/atv.jpg"
+    },
+    {
+      "nombre": "Jeep Wrangler - 4 door with a/c",
+      "tipo": "Jeep",
+      "marca": "Jeep",
+      "maximodepersonas": 5,
+      "mediodia": {
+        "precio": 70,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 100,
+        "duracion": 0
+      },
+      "imageurl": "../images/wrangler-four-doors.jpg"
+    },
+    {
+      "nombre": "Jeep Wrangler - 2 door",
+      "tipo": "Jeep",
+      "marca": "Jeep",
+      "maximodepersonas": 4,
+      "mediodia": {
+        "precio": 60,
+        "duracion": 3
+      },
+      "fullday": {
+        "precio": 85,
+        "duracion": 0
+      },
+      "imageurl": "../images/wrangler-two-doors.jpg"
+    }
+  ]
+}
