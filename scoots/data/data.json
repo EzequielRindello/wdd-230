@@ -13,7 +13,7 @@
         "precio": 30,
         "duracion": 0
       },
-      "imageurl": "../images/honda-metro.jpg"
+      "imageurl": "images/honda-metro.jpg"
     },
     {
       "nombre": "Honda Dio Scooter",
@@ -28,7 +28,7 @@
         "precio": 40,
         "duracion": 0
       },
-      "imageurl": "../images/honda-dio.jpg"
+      "imageurl": "images/honda-dio.jpg"
     },
     {
       "nombre": "Honda PCX150 Scooter",
@@ -43,7 +43,7 @@
         "precio": 50,
         "duracion": 0
       },
-      "imageurl": "../images/honda-pcx-150.jpg"
+      "imageurl": "images/honda-pcx-150.jpg"
     },
     {
       "nombre": "Honda Pioneer ATV",
@@ -58,7 +58,7 @@
         "precio": 70,
         "duracion": 0
       },
-      "imageurl": "../images/atv.jpg"
+      "imageurl": "images/atv.jpg"
     },
     {
       "nombre": "Jeep Wrangler - 4 door with a/c",
@@ -73,7 +73,7 @@
         "precio": 100,
         "duracion": 0
       },
-      "imageurl": "../images/wrangler-four-doors.jpg"
+      "imageurl": "images/wrangler-four-dors.webp"
     },
     {
       "nombre": "Jeep Wrangler - 2 door",
@@ -88,7 +88,7 @@
         "precio": 85,
         "duracion": 0
       },
-      "imageurl": "../images/wrangler-two-doors.jpg"
+      "imageurl": "images/wrangler-two-dors.webp"
     }
   ]
 }
