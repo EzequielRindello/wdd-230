@@ -59,7 +59,6 @@ checkWeather();
 // JSON table
 const url = 'data/data.json';
 const tableContainer = document.querySelector('#json-table');
-const cards = document.querySelector('#cards');
 
 async function generateRentalTable() {
     const displayRentalOptions = (options) => {
@@ -104,3 +103,37 @@ async function generateRentalTable() {
 
 generateRentalTable();
 
+const cards = document.querySelector('#cards');
+// JSON card
+async function getCardData() {
+    const displayCard = (opcionesderenta) => {
+        opcionesderenta.forEach((vehicle) => {
+            // Create elements to add to the div.cards element
+            let card = document.createElement('section');
+            let name = document.createElement('h3');
+            let vehicleImage = document.createElement('img');
+
+            // Build the h2 content out to show the vehicle name
+            name.textContent = `${vehicle.nombre}`;
+
+            // Build the image portrait by setting all the relevant attributes
+            vehicleImage.setAttribute('src', vehicle.imageurl);
+            vehicleImage.setAttribute('alt', `image of ${vehicle.nombre}`);
+            vehicleImage.setAttribute('loading', 'lazy');
+            vehicleImage.setAttribute('width', '340');
+            vehicleImage.setAttribute('height', '440');
+
+            // Append the section(card) with the created elements
+            card.appendChild(name);
+            card.appendChild(vehicleImage);
+
+            cards.appendChild(card);
+        }); // end of arrow function and forEach loop
+    }
+    const response = await fetch(url);
+    const data = await response.json();
+    displayCard(data.opcionesderenta);
+    console.log(data);
+}
+
+getCardData();
