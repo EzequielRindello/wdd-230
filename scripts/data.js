@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             learningActivities.forEach(function (week) {
                 html += `<li>${week.week}: `;
                 week.activities.forEach(function (activity, index) {
-                    html += `<a href="${activity.url}" target="_blank">${activity.title}</a>`;
+                    html += `<a href="${activity.url}" target="_blank"><strong>${activity.title} </strong></a>`;
                     if (index < week.activities.length - 1) {
                         html += "<strong> | </strong>";
                     }
