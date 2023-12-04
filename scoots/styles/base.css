@@ -353,6 +353,9 @@ p {
 .rentals-info p {
   width: 60%;
 }
+.rentals-info a{
+  color: var(--color1);
+}
 #cards {
   margin-top: 30px;
   display: flex;
