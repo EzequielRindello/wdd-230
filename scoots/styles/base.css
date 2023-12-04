@@ -391,14 +391,16 @@ table {
   border-collapse: collapse;
   margin: 1rem auto;
   width: 80%;
-  border: var(--bord);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgb(220, 220, 220);
-  
+  border-radius: 24px;
+  overflow: hidden;
 }
 th,
 td {
   padding: 0.8rem;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /*--------------------------------------------footer-------------------------------------------- */
 footer {
