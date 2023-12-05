@@ -2,36 +2,41 @@
   h2 {
     font-size: 2.25em;
   }
-  h3{
+  h3 {
     font-size: 1.4em;
   }
   p {
     font-size: 16px;
   }
-  footer{
+  footer {
     flex-direction: column;
   }
-  .social-icons{
+  .social-icons {
     margin-top: 5%;
   }
   .banner img {
     width: 100%;
   }
-  .member-log-btn,.header-logo i,.navbar a,.dropdown{
+  .member-log-btn,
+  .header-logo i,
+  .navbar a,
+  .dropdown {
     display: none;
   }
   #menu-icon {
     display: block;
     text-align: center;
   }
-  #menu-icon i{
+  #menu-icon i {
     font-size: 28px;
     cursor: pointer;
   }
-  .navbar a, .dropdown {
+  .navbar a,
+  .dropdown {
     display: none;
   }
-  .navbar.show a, .navbar.show {
+  .navbar.show a,
+  .navbar.show {
     display: block;
   }
   .navbar.show {
@@ -39,10 +44,10 @@
     flex-direction: column;
     align-items: center;
   }
-  .weather{
+  .weather {
     flex-direction: column;
   }
-  .weather div{
+  .weather div {
     margin-bottom: 6%;
   }
   #cards img {
@@ -58,8 +63,11 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  .banner div{
+  .banner div {
     width: 100%;
     margin-left: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
   }
 }

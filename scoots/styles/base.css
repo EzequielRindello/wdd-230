@@ -405,6 +405,13 @@ td {
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+/*--------------------------------------------reservations page HTML-------------------------------------------- */
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  place-items: center;
+}
+
 /*--------------------------------------------footer-------------------------------------------- */
 footer {
   font-family: var(--text-font);

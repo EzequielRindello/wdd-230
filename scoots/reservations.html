@@ -104,7 +104,143 @@
       </div>
     </div>
     <hr class="nav-hr" />
-    <main></main>
+    <main>
+      <div class="rentals-info">
+        <h2>Adventure with responsibility</h2>
+        <hr class="partners-hr" />
+        <hr class="partners-hr-2" />
+        <p>
+          Whenever we talk about adventure we imply the most important thing,
+          your safety and well-being. In this section you can reserve a vehicle
+          and know the terms and conditions.
+          <strong><a href="contact.html">Contact us to know more!</a></strong>
+        </p>
+      </div>
+      <div class="grid">
+        <div>
+          <h3>Rental Services and Agreements</h3>
+          <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>
+              A valid drivers license is required in hand at the time of rental.
+            </li>
+            <li>
+              No one under the age of 12 years of age are allowed to ride on the
+              scooters.
+            </li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>
+              Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.
+            </li>
+            <li>
+              Payment via Google Pay, Apple Pay, cash, credit card, debit card,
+              or venmo.
+            </li>
+            <li>Rentals may be returned to either physical location.</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>Start your adventure</h3>
+          <form action="thankyou.html" class="form" method="get">
+            <div class="input-box">
+              <label for="applicant_first_name">Firs Name</label>
+              <input
+                type="text"
+                id="applicant_first_name"
+                name="applicant_first_name"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="applicant_last_name">Last Name</label>
+              <input
+                type="text"
+                id="applicant_last_name"
+                name="applicant_last_name"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@example.com"
+                required
+              />
+            </div>
+            <div class="column">
+              <div class="input-box">
+                <label for="mobile_phone">Mobile Phone Number:</label>
+                <input
+                  type="tel"
+                  id="mobile_phone"
+                  name="mobile_phone"
+                  placeholder="Enter a mobile number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="input-box">
+              <label for="vehicle_type">Select a type of vehicle:</label>
+              <select id="vehicle_type" name="vehicle_type" required>
+                <option value="" disabled selected>
+                  Select a type of vehicle
+                </option>
+                <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                <option value="Honda PCX150 Scooter">
+                  Honda PCX150 Scooter
+                </option>
+                <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                <option value="Jeep Wrangler - 4 door with a/c">
+                  Jeep Wrangler - 4 door with a/c
+                </option>
+                <option value="Jeep Wrangler - 2 door">
+                  Jeep Wrangler - 2 door
+                </option>
+              </select>
+            </div>
+            <div class="input-box">
+              <label for="number_of_people">Number of People:</label>
+              <select id="number_of_people" name="number_of_people" required>
+                <option value="" disabled selected>
+                  Select number of people
+                </option>
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+              </select>
+            </div>
+            <div class="input-area">
+              <label for="accommodations"
+                >Special accommodations/comments:</label
+              >
+              <textarea
+                id="accommodations"
+                name="accommodations"
+                placeholder="A business/organization's description"
+                required=""
+              ></textarea>
+            </div>
+            <input
+              class="button"
+              type="submit"
+              id="submit-button"
+              value="Submit"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
     <hr />
     <footer id="footer">
       <div>
