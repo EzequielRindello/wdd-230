@@ -353,7 +353,7 @@ p {
 .rentals-info p {
   width: 60%;
 }
-.rentals-info a{
+.rentals-info a {
   color: var(--color1);
 }
 #cards {
@@ -406,12 +406,114 @@ td {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /*--------------------------------------------reservations page HTML-------------------------------------------- */
-.grid{
+.grid {
+  margin: 8% 8%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   place-items: center;
 }
-
+form,
+ul,select,option,:placeholder-shown {
+  font-family: var(--text-font);
+}
+ul,
+li {
+  margin: 20px;
+}
+.container {
+  font-size: 16px;
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 24px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: var(--div-color);
+}
+.container input {
+  background-color: #f5f8fa;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: var(--div-color);
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: var(--div-color);
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: var(--div-color);
+  font-size: 1rem;
+}
+.button {
+  height: 55px;
+  width: 100%;
+  color: var(--color1);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1em;
+  margin-top: 30px;
+  border: 2px solid #acdbda;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  transition: 0.2s ease-out;
+}
+.button:hover {
+  background-color: #acdbda;
+}
+.button:hover {
+  transform: translateY(-5px);
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.input-area textarea {
+  margin-top: 20px;
+  height: 60px;
+  width: 100%;
+  background-color: #f5f8fa;
+}
+select {
+  margin-left: 10px;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
 /*--------------------------------------------footer-------------------------------------------- */
 footer {
   font-family: var(--text-font);

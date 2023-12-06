@@ -70,4 +70,7 @@
   .grid {
     grid-template-columns: 1fr;
   }
+  .container{
+    margin-top: 8%;
+  }
 }
