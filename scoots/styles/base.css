@@ -260,6 +260,9 @@ p {
   width: 320px;
   height: fit-content;
 }
+.forecast div{
+  padding: 10px;
+}
 .popup {
   font-family: var(--text-font);
   position: relative;
