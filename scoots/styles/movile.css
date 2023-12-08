@@ -56,6 +56,16 @@
   #cards {
     justify-content: center;
   }
+  .contact-banner{
+    background-image: url("../images/contac-hero-movile.webp");
+    height: 50vh;
+  }
+  .contact-form {
+    padding: 1em;
+    margin: 1em; 
+    width: fit-content; 
+    max-width: fit-content;
+  }
 }
 
 @media (max-width: 1176px) {
@@ -72,5 +82,8 @@
   }
   .container{
     margin-top: 8%;
+  }
+  .contact-banner-grid{
+    grid-template-columns: 1fr;
   }
 }

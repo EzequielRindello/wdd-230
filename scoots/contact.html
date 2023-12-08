@@ -104,15 +104,73 @@
       </div>
     </div>
     <hr class="nav-hr" />
-    <!-- TODO: Hacer con grid 50% de la pagina con la imagen y el resto un h2 con palabras -->
     <main>
-      <div>
-        <div class="banner-hero">
+      <div class="contact-banner-grid">
+        <div class="contact-banner"></div>
+        <div class="contact-info">
+          <h2>We are glad that you want to contact us</h2>
+          <p>
+            We are a growing organization that prioritizes your security and we
+            strive to innovate exploration
+          </p>
+          <button onclick="redirectTo('#form')">Contact Us</button>
         </div>
-        <div>
-          <h2></h2>
-          <p></p>
+      </div>
+      <br id="form">
+      <div class="center-form">
+        <div class="contact-form">
+          <form action="" class="form">
+            <h3 >Keep in contact with us</h3>
+            <div class="input-box">
+              <label for="applicant_first_name">Firs Name</label>
+              <input
+                type="text"
+                id="applicant_first_name"
+                name="applicant_first_name"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="applicant_last_name">Last Name</label>
+              <input
+                type="text"
+                id="applicant_last_name"
+                name="applicant_last_name"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="email">Email Address:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@example.com"
+                required
+              />
+            </div>
+            <input
+                class="button"
+                type="submit"
+                id="submit-button"
+                value="Submit"
+              />
+          </form>
         </div>
+      </div>
+      <hr />
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25139.8706055382!2d-86.93883806426658!3d20.503597395459327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58330a673659%3A0x9cedf516c7d86e9a!2sCozumel%2C%20Q.R.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sar!4v1702060331453!5m2!1ses-419!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </main>
     <hr />
