@@ -46,10 +46,6 @@
       property="og:url"
       content="https://ezequielrindello.github.io/wdd230/"
     />
-    <meta
-      http-equiv="Permissions-Policy"
-      content="interest-cohort=(), user-id=()"
-    />
     <!-- css -->
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/movile.css" />
@@ -67,13 +63,13 @@
       </button>
       <div class="header-button">
         <div>
-          <button class="member-log-btn">
-            <a href="rentals.html" target="_blank">Rentals</a>
+          <button class="member-log-btn" onclick="redirectTo('rentals.html')">
+            Rentals
           </button>
         </div>
         <div>
-          <button id="call-to-action">
-            <a href="reservations.html" target="_blank">Reservation</a>
+          <button id="call-to-action" onclick="redirectTo('reservations.html')">
+            Reservation
           </button>
         </div>
       </div>
@@ -222,6 +218,7 @@
               name="email"
               type="email"
               class="input_field"
+              required
             />
             <button class="submit">Submit</button>
           </form>
