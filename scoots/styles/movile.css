@@ -86,4 +86,8 @@
   .contact-banner-grid{
     grid-template-columns: 1fr;
   }
+  .center-form{
+    flex-direction: column;
+    margin-bottom: 4%;
+  }
 }
