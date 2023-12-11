@@ -614,6 +614,10 @@ select {
   font-size: 16px;
   margin-top: 5%;
 }
+.pointer-events,#pointer-events{
+  font-family: var(--paragraph-font);
+}
+
 /*--------------------------------------------footer-------------------------------------------- */
 footer {
   font-family: var(--text-font);
