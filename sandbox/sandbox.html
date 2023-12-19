@@ -1,18 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SandBox</title>
-    <link rel="stylesheet" href="sandbox.css" />
-  </head>
-  <body>
-    <div class="dark-toggle">
-      <label class="switch-container">
-        <input type="checkbox" />
-        <span class="slider"></span>
-      </label>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulación de Clases en un Sitio de Comercio Electrónico</title>
+    <style>
+        .producto {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .agregado-al-carrito {
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+
+        #productosAgregados {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="carrito">Carrito de Compras</div>
+
+    <div id="productos">
+        <div class="producto" onclick="agregarAlCarrito(this)">
+            Producto 1
+        </div>
+        <div class="producto" onclick="agregarAlCarrito(this)">
+            Producto 2
+        </div>
+        <div class="producto" onclick="agregarAlCarrito(this)">
+            Producto 3
+        </div>
     </div>
-    <script src="sandbox.js"></script>
-  </body>
+
+    <div id="productosAgregados"></div>
+
+    <script>
+        function agregarAlCarrito(elemento) {
+            // Agregar o quitar la clase 'agregado-al-carrito' al hacer clic
+            elemento.classList.toggle('agregado-al-carrito');
+
+            // Lógica adicional para actualizar el carrito, enviar datos al servidor, etc.
+            actualizarCarrito();
+        }
+
+        function actualizarCarrito() {
+            // Lógica para actualizar el carrito (puede ser más compleja en un escenario real)
+            const productosAgregados = document.querySelectorAll('.agregado-al-carrito');
+            const cantidadEnCarrito = productosAgregados.length;
+
+            // Actualizar el contenido del carrito
+            const carrito = document.getElementById('carrito');
+            carrito.textContent = `Carrito de Compras (${cantidadEnCarrito} productos)`;
+
+            // Mostrar los productos agregados en un contenedor
+            const contenedorProductosAgregados = document.getElementById('productosAgregados');
+            contenedorProductosAgregados.innerHTML = '';
+
+            productosAgregados.forEach(producto => {
+                const nombreProducto = producto.textContent;
+                const parrafo = document.createElement('p');
+                parrafo.textContent = `Producto Agregado: ${nombreProducto}`;
+                contenedorProductosAgregados.appendChild(parrafo);
+            });
+        }
+    </script>
+</body>
 </html>
